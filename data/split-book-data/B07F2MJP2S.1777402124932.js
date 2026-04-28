@@ -1,0 +1,1 @@
+window.bookSummaryJSON = "<p><b>Danny's life was going well.</b></p> <p>He had a steady job and plans to buy his own place. That was until some rogue junk mail decided he needed a change of scenery.</p> <p>Now Danny's got a new start in another world, and he needs to make sure he doesn't squander this opportunity at making the most of this new life.</p>"; 

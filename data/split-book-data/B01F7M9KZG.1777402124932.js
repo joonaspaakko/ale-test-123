@@ -1,0 +1,1 @@
+window.bookSummaryJSON = "Internationally bestselling author Sophie Hannah and the world’s favorite detective Hercule Poirot return in this follow-up to <em>The Monogram Murders</em>, the national bestseller hailed by the <em>Washington Post</em> as “literary magic.”"; 

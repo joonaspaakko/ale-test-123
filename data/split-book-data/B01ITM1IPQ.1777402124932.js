@@ -1,0 +1,1 @@
+window.bookSummaryJSON = "<b>Michael and his friends try to recruit Hatch’s Electric Youth to their side as the thrilling action continues in this electrifying sixth installment of the <i>New York Times </i>bestselling series!</b>"; 
