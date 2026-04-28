@@ -1,12 +1,12 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./gallery-root.C5t0svKo.js","./gallery-lazy.BOEHEBS8.js","./lodash.CGY2RTlS.js","./jquery.3Hs3vqLI.js","./gallery-makeCoverUrl.BnX14Pi7.js","./content-script-helpers.B8GP9ThR.js","./jszip.HPtxegej.js","./gallery-search.RAKDrxVB.js","./gallery-findSubPageSource.1Ov8aSKw.js","./gallery-findSubPageSource.CiwUdFXD.css","./gallery-page-title.Bpc3Y2O-.js","./gallery-page-title.DIkdMpKg.css","./fuse.esm.DPJcRK7b.js","./gallery-search.BzpeHrzh.css","./index.8uvnVcGT.js","./howler.B9zQKWVB.js","./tippy.DwPpyou1.js","./tippy.CccQYZjX.css","./gallery-root.DbZgvYv3.css","./gallery-collections.R5wExXhi.js","./gallery-collections.CfEzgue_.css","./gallery-categories.J5szFvCP.js","./gallery-categories.TnEyMgJ6.css","./gallery-series.P9K0A0qF.js","./gallery-series.BUI5za12.css","./gallery-authors.B8AfP32K.js","./gallery-authors.B_KccURD.css","./gallery-narrators.BrtB5Q_N.js","./gallery-narrators.BS7nEc6d.css","./gallery-publishers.DrkBsRiw.js","./gallery-publishers.B7FoxqaF.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./gallery-root.B8FsXNDt.js","./gallery-lazy.BVsJ3eWf.js","./lodash.Cy6RZ5mX.js","./jquery.3Hs3vqLI.js","./gallery-makeCoverUrl.BnX14Pi7.js","./content-script-helpers.BqIDHt5n.js","./jszip.BBGmtqMN.js","./gallery-search.Z3hfa18A.js","./gallery-findSubPageSource.CB10VwdW.js","./gallery-findSubPageSource.CiwUdFXD.css","./gallery-page-title.CJf63hEH.js","./gallery-page-title.DIkdMpKg.css","./gallery-search.BzpeHrzh.css","./index.9Z32wZYy.js","./howler.B9zQKWVB.js","./tippy.D2CvuMJV.js","./tippy.CccQYZjX.css","./gallery-root.DbZgvYv3.css","./gallery-collections.DmP4PSdR.js","./gallery-collections.CfEzgue_.css","./gallery-categories.aiphk6-h.js","./gallery-categories.TnEyMgJ6.css","./gallery-series.39q9PKl2.js","./gallery-series.BUI5za12.css","./gallery-authors.B6O8YoLz.js","./gallery-authors.B_KccURD.css","./gallery-narrators.39BMwrBY.js","./gallery-narrators.BS7nEc6d.css","./gallery-publishers.B23-UBiy.js","./gallery-publishers.B7FoxqaF.css"])))=>i.map(i=>d[i]);
 import { m as makeCoverUrl } from './gallery-makeCoverUrl.BnX14Pi7.js';
-import { m as markRaw, o as openBlock, c as createElementBlock, a as createBaseVNode, _ as _export_sfc, w as withDirectives, v as vShow, n as normalizeStyle, b as createVNode, t as toDisplayString, d as createCommentVNode, r as resolveDirective, e as resolveComponent, f as withModifiers, g as normalizeClass, h as createBlock, F as Fragment, i as renderList, j as withCtx, k as normalizeProps, l as resolveDynamicComponent, p as renderSlot, q as createStaticVNode, s as createTextVNode, u as vModelSelect, x as withKeys, y as vModelCheckbox, z as vModelText, A as vModelRadio, B as _$1, C as unref, D as shallowReactive, E as shallowRef, G as defineComponent, H as inject, I as h, J as reactive, K as computed, L as watch, M as ref, N as nextTick, O as provide, P as createApp } from './lodash.CGY2RTlS.js';
+import { m as markRaw, o as openBlock, c as createElementBlock, a as createBaseVNode, _ as _export_sfc, w as withDirectives, v as vShow, n as normalizeStyle, b as createVNode, t as toDisplayString, d as createCommentVNode, r as resolveDirective, e as resolveComponent, f as withModifiers, g as normalizeClass, h as createBlock, F as Fragment, i as renderList, j as withCtx, k as normalizeProps, l as resolveDynamicComponent, p as renderSlot, q as createStaticVNode, s as createTextVNode, u as withKeys, x as vModelText, y as vModelCheckbox, z as vModelRadio, A as _$1, B as unref, C as shallowReactive, D as shallowRef, E as defineComponent, G as inject, H as h, I as reactive, J as computed, K as watch, L as ref, M as nextTick, N as provide, O as createApp } from './lodash.Cy6RZ5mX.js';
 import { c as commonjsGlobal, g as getDefaultExportFromCjs } from './jquery.3Hs3vqLI.js';
-import { r as require$$0, s as shortkey } from './index.8uvnVcGT.js';
-import { U as Url, t as toDate, c as constructFrom, n as normalizeDates, d as differenceInCalendarDays, m as millisecondsInHour, a as millisecondsInMinute, g as getDefaultOptions, s as secondsToTimeString, b as timeStringToSeconds, h as helpers } from './content-script-helpers.B8GP9ThR.js';
+import { r as require$$0, s as shortkey } from './index.9Z32wZYy.js';
+import { F as Fuse, U as Url, t as toDate, c as constructFrom, n as normalizeDates, d as differenceInCalendarDays, m as millisecondsInHour, a as millisecondsInMinute, g as getDefaultOptions, s as secondsToTimeString, b as timeStringToSeconds, h as helpers } from './content-script-helpers.BqIDHt5n.js';
 import { h as howler } from './howler.B9zQKWVB.js';
-import { e as enUS, c as createStore, m as mitt, p as plugin } from './tippy.DwPpyou1.js';
-import './jszip.HPtxegej.js';
+import { e as enUS, c as createStore, m as mitt, p as plugin } from './tippy.D2CvuMJV.js';
+import './jszip.BBGmtqMN.js';
 
 const _hoisted_1$C = {
   viewBox: "0 0 24 24",
@@ -28754,10 +28754,26 @@ function onSecondaryRateLimit(retryAfter, options, octokit) {
 
 /* unplugin-vue-components disabled */
 
+// Topic used to tag ALE repos — specific enough to be unambiguous
+const ALE_TOPIC = 'audible-library-extractor';
+
 const _sfc_main$6 = {
   props: {
     getFiles: Function,
     version: { type: String, default: '' },
+  },
+
+  // v-click-outside directive to close dropdown when clicking outside
+  directives: {
+    clickOutside: {
+      mounted(el, binding) {
+        el._clickOutside = (e) => { if (!el.contains(e.target)) binding.value(e); };
+        document.addEventListener('mousedown', el._clickOutside);
+      },
+      unmounted(el) {
+        document.removeEventListener('mousedown', el._clickOutside);
+      },
+    },
   },
 
   data() {
@@ -28779,6 +28795,12 @@ const _sfc_main$6 = {
       selectedRepo: '',
       newRepoName: 'my-audible-library',
 
+      // Dropdown
+      dropdownOpen: false,
+      dropdownSearch: '',
+      showAllRepos: false,
+      fuseInstance: null,
+
       // Sync state
       isSyncing: false,
       abortController: null,
@@ -28787,8 +28809,10 @@ const _sfc_main$6 = {
       statusMessage: '',
       commitMessage: '',
       showCommitMessage: false,
-      defaultCommitMessage: 'Upload #0',
+      defaultCommitMessage: 'Upload #1',
       uploadComplete: false,
+      uploadFailed: false,
+      failedMessage: '',
       completedPagesUrl: null,
       includeReadme: true,
       stages: ['Uploading files', 'Organizing files', 'Saving changes', 'Done'],
@@ -28812,16 +28836,51 @@ const _sfc_main$6 = {
     canUpload() {
       return this.selectedRepo && this.selectedRepo !== '__new__';
     },
+    filteredRepos() {
+      // Filter to ALE repos unless showAllRepos is on
+      const source = this.showAllRepos
+        ? this.repos
+        : this.repos.filter(r => r.isAleRepo);
+
+      if (!this.dropdownSearch.trim()) return source;
+
+      // Fuse search
+      if (!this.fuseInstance || this._fuseSource !== source) {
+        this.fuseInstance = new Fuse(source, { keys: ['name'], threshold: 0.4 });
+        this._fuseSource = source;
+      }
+      return this.fuseInstance.search(this.dropdownSearch).map(r => r.item);
+    },
   },
 
   watch: {
-    async selectedRepo(newRepo) {
+    async selectedRepo(newRepo, oldRepo) {
+      // Reset progress/error state when switching repos
+      if (newRepo !== oldRepo) {
+        this._resetProgress();
+      }
       if (!newRepo || newRepo === '__new__') return;
+      // Fetch pages info for newly selected repo if not already loaded
       const info = this.repos.find(r => r.name === newRepo);
+      if (info && info.pagesStatus === null) {
+        await this._fetchRepoPages(info);
+      }
       if (info && info.pagesStatus === 'building') {
         this._pollPagesBuild(this.profile.login, newRepo);
       }
       await this._updateDefaultCommitMessage(newRepo);
+    },
+    repos(newRepos) {
+      // Rebuild Fuse index when repos list changes
+      this.fuseInstance = new Fuse(newRepos, { keys: ['name'], threshold: 0.4 });
+      this._fuseSource = newRepos;
+    },
+    dropdownOpen(isOpen) {
+      if (isOpen) {
+        this.$nextTick(() => { this.$refs.dropdownSearch?.focus(); });
+      } else {
+        this.dropdownSearch = '';
+      }
     },
   },
 
@@ -28899,20 +28958,14 @@ const _sfc_main$6 = {
           per_page: 100,
         });
 
-        const reposBase = data.map(r => ({
-          name: r.name,
-          pushedAt: r.pushed_at,
-          updatedAt: r.updated_at,
-          private: r.private,
-          branch: r.default_branch,
-          pagesUrl: null,
-          pagesStatus: null,
-        }));
-
-        await Promise.all(reposBase.map(async (r) => {
+        // Fetch topics for all repos in parallel — one request each, but cheap
+        // Topics tell us which repos were created by ALE (tagged with ALE_TOPIC)
+        // Pages info is NOT fetched here — only fetched when a repo is selected
+        const reposBase = await Promise.all(data.map(async (r) => {
+          let isAleRepo = false;
           try {
-            const response = await fetch(
-              `https://api.github.com/repos/${this.profile.login}/${r.name}/pages`,
+            const res = await fetch(
+              `https://api.github.com/repos/${this.profile.login}/${r.name}/topics`,
               {
                 headers: {
                   'Authorization': `Bearer ${this.githubToken}`,
@@ -28921,19 +28974,26 @@ const _sfc_main$6 = {
                 },
               }
             );
-            if (response.ok) {
-              const pages = await response.json();
-              r.pagesUrl = pages.html_url;
-              r.pagesStatus = pages.status;
+            if (res.ok) {
+              const { names } = await res.json();
+              isAleRepo = names.includes(ALE_TOPIC);
             }
-          } catch {
-            // Pages not enabled — leave null
-          }
+          } catch {}
+          return {
+            name: r.name,
+            pushedAt: r.pushed_at,
+            updatedAt: r.updated_at,
+            private: r.private,
+            branch: r.default_branch,
+            isAleRepo,
+            pagesUrl: null,
+            pagesStatus: null, // fetched lazily on selection
+          };
         }));
 
         this.repos = reposBase;
 
-        chrome.storage.local.get('lastRepo', ({ lastRepo }) => {
+        chrome.storage.local.get('lastRepo', async ({ lastRepo }) => {
           if (lastRepo && this.repos.find(r => r.name === lastRepo)) {
             this.selectedRepo = lastRepo;
           }
@@ -28942,6 +29002,33 @@ const _sfc_main$6 = {
         this.reposLoading = false;
       }
     },
+
+    // Fetch pages info for a single repo — called lazily when repo is selected
+    // Uses lodash debounce so rapid switching doesn't fire a flood of requests
+    _fetchRepoPages: _.debounce(async function(repoEntry) {
+      try {
+        const response = await fetch(
+          `https://api.github.com/repos/${this.profile.login}/${repoEntry.name}/pages`,
+          {
+            headers: {
+              'Authorization': `Bearer ${this.githubToken}`,
+              'Accept': 'application/vnd.github+json',
+              'X-GitHub-Api-Version': '2022-11-28',
+            },
+          }
+        );
+        if (response.ok) {
+          const pages = await response.json();
+          repoEntry.pagesUrl = pages.html_url;
+          repoEntry.pagesStatus = pages.status;
+        } else {
+          // 404 = Pages not enabled
+          repoEntry.pagesStatus = 'none';
+        }
+      } catch {
+        repoEntry.pagesStatus = 'none';
+      }
+    }, 300),
 
     async createRepo() {
       const name = this.newRepoName.trim();
@@ -28955,6 +29042,24 @@ const _sfc_main$6 = {
         });
         const branch = newRepo.default_branch;
 
+        // Tag repo with ALE topic so it shows up in the filtered dropdown
+        try {
+          await fetch(
+            `https://api.github.com/repos/${this.profile.login}/${name}/topics`,
+            {
+              method: 'PUT',
+              headers: {
+                'Authorization': `Bearer ${this.githubToken}`,
+                'Accept': 'application/vnd.github+json',
+                'Content-Type': 'application/json',
+                'X-GitHub-Api-Version': '2022-11-28',
+              },
+              body: JSON.stringify({ names: [ALE_TOPIC] }),
+            }
+          );
+        } catch {}
+
+        // Enable Pages with retry — auto_init needs a moment to create the branch
         this.statusMessage = `Setting up website for "${name}"...`;
         let pagesEnabled = false;
         for (let attempt = 0; attempt < 6; attempt++) {
@@ -28996,17 +29101,69 @@ const _sfc_main$6 = {
       }
     },
 
+    // ── DROPDOWN ────────────────────────────────────────────────────────────
+
+    toggleDropdown() {
+      this.dropdownOpen = !this.dropdownOpen;
+    },
+
+    closeDropdown() {
+      this.dropdownOpen = false;
+    },
+
+    selectRepo(name) {
+      this.selectedRepo = name;
+      this.closeDropdown();
+    },
+
+    selectFirstResult() {
+      if (this.filteredRepos.length > 0) {
+        this.selectRepo(this.filteredRepos[0].name);
+      }
+    },
+
     // ── SYNC ────────────────────────────────────────────────────────────────
+
+    _resetProgress() {
+      this.uploadFailed = false;
+      this.uploadComplete = false;
+      this.failedMessage = '';
+      this.statusMessage = '';
+      this.progress = { stage: '', total: 0, done: 0, percent: 0 };
+    },
 
     cancel() {
       if (this.abortController) {
         this.abortController.abort();
         this.abortController = null;
       }
+      // Immediately resolve any active rate-limit wait so workers exit cleanly
+      if (this._rateLimitResolve) {
+        this._rateLimitResolve();
+        this._rateLimitResolve = null;
+        this._rateLimitPromise = null;
+      }
       this.isSyncing = false;
       this.uploadComplete = false;
+      this.uploadFailed = false;
       this.statusMessage = 'Cancelled.';
       this.progress.stage = '';
+    },
+
+    onCompleteBack() {
+      this.uploadComplete = false;
+      this._resetProgress();
+    },
+
+    onFailedBack() {
+      this.uploadFailed = false;
+      this._resetProgress();
+    },
+
+    retryUpload() {
+      this.uploadFailed = false;
+      this.failedMessage = '';
+      this.uploadLibrary();
     },
 
     stageIsDone(s) {
@@ -29018,6 +29175,8 @@ const _sfc_main$6 = {
     async uploadLibrary() {
       if (this.isSyncing || !this.canUpload) return;
       this.isSyncing = true;
+      this.uploadFailed = false;
+      this.uploadComplete = false;
       this.abortController = new AbortController();
       const { signal } = this.abortController;
 
@@ -29047,9 +29206,6 @@ const _sfc_main$6 = {
         const latestCommitSha = ref.object.sha;
 
         // ── 2. Pre-hash all files ────────────────────────────────────────────
-        // Hashing inside the worker loop causes workers to yield to each other
-        // on every await, effectively serializing uploads. Pre-hashing everything
-        // first means the worker loop is pure network I/O with no yielding.
         this.progress.stage = 'Uploading files';
         this.statusMessage = 'Preparing files...';
 
@@ -29063,6 +29219,8 @@ const _sfc_main$6 = {
           let bytes;
           if (c instanceof ArrayBuffer) {
             bytes = new Uint8Array(c);
+          } else if (c instanceof Uint8Array) {
+            bytes = c;
           } else {
             bytes = new TextEncoder().encode(c || '');
           }
@@ -29078,19 +29236,15 @@ const _sfc_main$6 = {
         let nextIndex = 0;
 
         const toBase64 = (content) => {
-          
           const buffer = content instanceof ArrayBuffer;
           const uint8 = content instanceof Uint8Array;
-          
-          if ( buffer || uint8 ) {
+          if (buffer || uint8) {
             const bytes = buffer ? new Uint8Array(content) : content;
             let binary = '';
             for (let i = 0; i < bytes.byteLength; i++) binary += String.fromCharCode(bytes[i]);
             return btoa(binary);
           }
-          
           return btoa(unescape(encodeURIComponent(content)));
-          
         };
 
         const uploadBlob = async (file) => {
@@ -29129,13 +29283,21 @@ const _sfc_main$6 = {
               const waitMs = retryAfter ? parseInt(retryAfter) * 1000 : delay;
               if (!this._rateLimitPromise) {
                 this._rateLimitPromise = new Promise(resolve => {
+                  // Store resolve so cancel() can short-circuit the wait
+                  this._rateLimitResolve = resolve;
                   let remaining = Math.round(waitMs / 1000);
                   this.statusMessage = `Too many requests — retrying in ${remaining}s...`;
                   const tick = setInterval(() => {
+                    if (signal.aborted) {
+                      clearInterval(tick);
+                      resolve();
+                      return;
+                    }
                     remaining--;
                     if (remaining <= 0) {
                       clearInterval(tick);
                       this._rateLimitPromise = null;
+                      this._rateLimitResolve = null;
                       resolve();
                     } else {
                       this.statusMessage = `Too many requests — retrying in ${remaining}s...`;
@@ -29157,8 +29319,6 @@ const _sfc_main$6 = {
         const runWorker = async () => {
           while (true) {
             if (signal.aborted) return;
-
-            // Wait out any active rate limit before firing the next request
             if (this._rateLimitPromise) await this._rateLimitPromise;
 
             const i = nextIndex++;
@@ -29186,15 +29346,17 @@ const _sfc_main$6 = {
         await Promise.all(Array.from({ length: CONCURRENCY }, runWorker));
         if (signal.aborted) return;
 
-        // ── 4. Build file structure ───────────────────────────────────────────
-        // No base_tree on first chunk — creates a clean slate, removing all old
-        // files including previous cache-busted filenames.
+        // ── 4. Build file structure in chunks of 100 ─────────────────────────
+        // Smaller chunks (100 vs 500) means more ticks on the progress bar,
+        // so this stage feels alive rather than stalling for 10+ seconds.
         this.progress.stage = 'Organizing files';
         this.statusMessage = 'Organizing files...';
         this.progress.percent = 72;
 
-        const TREE_CHUNK = 500;
+        const TREE_CHUNK = 100;
         let currentTreeSha = null;
+        const totalChunks = Math.ceil(files.length / TREE_CHUNK);
+        let chunksDone = 0;
 
         for (let i = 0; i < files.length; i += TREE_CHUNK) {
           if (signal.aborted) return;
@@ -29208,11 +29370,13 @@ const _sfc_main$6 = {
               sha: blobShas[i + j],
             })),
           };
+          // No base_tree on first chunk — creates a clean slate wiping old files
           if (currentTreeSha) treeParams.base_tree = currentTreeSha;
           const { data: tree } = await this.octokit.rest.git.createTree(treeParams);
           currentTreeSha = tree.sha;
-          this.progress.percent = 72 + Math.round(((i + chunk.length) / files.length) * 15);
-          this.statusMessage = `Organizing ${Math.min(i + TREE_CHUNK, files.length)}/${files.length}`;
+          chunksDone++;
+          this.progress.percent = 72 + Math.round((chunksDone / totalChunks) * 15);
+          this.statusMessage = `Organizing files… ${Math.min(i + TREE_CHUNK, files.length)}/${files.length}`;
         }
 
         // ── 5. Save ───────────────────────────────────────────────────────────
@@ -29235,21 +29399,29 @@ const _sfc_main$6 = {
 
         localStorage.removeItem(cacheKey);
 
-        await this.loadRepos();
+        // Refresh just the selected repo's info rather than all repos
+        const repoEntry = this.repos.find(r => r.name === repo);
+        if (repoEntry) {
+          repoEntry.pushedAt = new Date().toISOString();
+          // Optimistically mark as building — always poll regardless of prior status
+          repoEntry.pagesStatus = 'building';
+        }
 
         this.progress.stage = 'Done';
         this.progress.percent = 100;
         this.statusMessage = '';
 
-        const repoEntry = this.repos.find(r => r.name === repo);
         this.completedPagesUrl = repoEntry?.pagesUrl || null;
         this.uploadComplete = true;
 
+        // Always poll after upload — GitHub rebuilds Pages on every push
         this._pollPagesBuild(owner, repo);
 
       } catch (err) {
+        if (signal.aborted) return; // cancelled — don't show failed screen
         console.error(err);
-        this.statusMessage = 'Upload failed: ' + (err?.message || 'Unknown error');
+        this.uploadFailed = true;
+        this.failedMessage = err?.message || 'Unknown error';
       } finally {
         this.isSyncing = false;
       }
@@ -29308,11 +29480,17 @@ const _sfc_main$6 = {
             if (repoEntry) {
               repoEntry.pagesUrl = pages.html_url;
               repoEntry.pagesStatus = pages.status;
+              // Also update completedPagesUrl in case it wasn't set before
+              if (this.uploadComplete && pages.html_url) {
+                this.completedPagesUrl = pages.html_url;
+              }
             }
             if (pages.status === 'built' || pages.status === 'errored') {
-              this.statusMessage = pages.status === 'built'
-                ? `Site is live at ${pages.html_url}`
-                : 'Site publish failed — check GitHub Pages settings.';
+              if (pages.status === 'built' && this.uploadComplete) {
+                // Status message on complete screen is handled via reactive pagesStatus
+              } else if (pages.status === 'errored') {
+                this.statusMessage = 'Site publish failed — check GitHub Pages settings.';
+              }
               break;
             }
           } catch {
@@ -29388,79 +29566,120 @@ const _hoisted_13$2 = {
   class: "complete-built"
 };
 const _hoisted_14$2 = {
+  key: 1,
+  class: "failed-screen"
+};
+const _hoisted_15$1 = { class: "failed-box" };
+const _hoisted_16$1 = { class: "failed-msg" };
+const _hoisted_17$1 = { class: "failed-actions" };
+const _hoisted_18$1 = {
   key: 0,
   class: "repo-section"
 };
-const _hoisted_15$1 = {
+const _hoisted_19$1 = {
   key: 0,
   class: "repo-loading"
 };
-const _hoisted_16$1 = {
-  key: 1,
-  class: "repo-picker-row"
-};
-const _hoisted_17$1 = ["value"];
-const _hoisted_18$1 = {
-  key: 2,
-  class: "new-repo-row"
-};
-const _hoisted_19$1 = ["value"];
-const _hoisted_20$1 = ["disabled"];
+const _hoisted_20$1 = { class: "custom-dropdown" };
 const _hoisted_21$1 = {
-  key: 3,
+  key: 0,
+  class: "dropdown-value new-indicator"
+};
+const _hoisted_22$1 = {
+  key: 1,
+  class: "dropdown-value"
+};
+const _hoisted_23$1 = {
+  key: 2,
+  class: "dropdown-value placeholder"
+};
+const _hoisted_24$1 = {
+  key: 0,
+  class: "dropdown-panel"
+};
+const _hoisted_25$1 = { class: "dropdown-search-wrap" };
+const _hoisted_26 = { class: "dropdown-filter-row" };
+const _hoisted_27 = { class: "dropdown-filter-label" };
+const _hoisted_28 = { class: "dropdown-list" };
+const _hoisted_29 = ["onClick"];
+const _hoisted_30 = { class: "dropdown-item-name" };
+const _hoisted_31 = {
+  key: 0,
+  class: "ale-tag"
+};
+const _hoisted_32 = {
+  key: 0,
+  class: "dropdown-empty"
+};
+const _hoisted_33 = {
+  key: 0,
+  class: "new-repo-wrap"
+};
+const _hoisted_34 = { class: "new-repo-row" };
+const _hoisted_35 = ["value"];
+const _hoisted_36 = ["disabled"];
+const _hoisted_37 = {
+  key: 0,
+  class: "pages-preview"
+};
+const _hoisted_38 = { class: "pages-preview-url" };
+const _hoisted_39 = {
+  key: 2,
   class: "repo-info-card"
 };
-const _hoisted_22$1 = { class: "repo-info-row" };
-const _hoisted_23$1 = { class: "info-value" };
-const _hoisted_24$1 = { class: "repo-info-row" };
-const _hoisted_25$1 = { class: "info-value" };
-const _hoisted_26 = { class: "repo-info-row" };
-const _hoisted_27 = { class: "info-value" };
-const _hoisted_28 = { class: "repo-info-row" };
-const _hoisted_29 = ["href"];
-const _hoisted_30 = {
+const _hoisted_40 = { class: "repo-info-row" };
+const _hoisted_41 = { class: "info-value" };
+const _hoisted_42 = { class: "repo-info-row" };
+const _hoisted_43 = { class: "info-value" };
+const _hoisted_44 = { class: "repo-info-row" };
+const _hoisted_45 = { class: "info-value" };
+const _hoisted_46 = { class: "repo-info-row" };
+const _hoisted_47 = ["href"];
+const _hoisted_48 = {
   key: 0,
   class: "repo-info-row"
 };
-const _hoisted_31 = { class: "info-value pages-row" };
-const _hoisted_32 = ["href"];
-const _hoisted_33 = {
+const _hoisted_49 = { class: "info-value pages-row" };
+const _hoisted_50 = ["href"];
+const _hoisted_51 = {
   key: 1,
   class: "repo-info-row"
 };
-const _hoisted_34 = {
+const _hoisted_52 = {
   key: 1,
   class: "status-msg"
 };
-const _hoisted_35 = {
+const _hoisted_53 = {
   key: 2,
   class: "progress-wrap"
 };
-const _hoisted_36 = { class: "progress-bar" };
-const _hoisted_37 = { class: "progress-text" };
-const _hoisted_38 = { key: 0 };
-const _hoisted_39 = {
+const _hoisted_54 = { class: "progress-bar" };
+const _hoisted_55 = { class: "progress-text" };
+const _hoisted_56 = { key: 0 };
+const _hoisted_57 = {
   key: 3,
   class: "stage-indicator"
 };
-const _hoisted_40 = {
+const _hoisted_58 = {
   key: 4,
   class: "opt-row"
 };
-const _hoisted_41 = { class: "opt-label" };
-const _hoisted_42 = {
+const _hoisted_59 = { class: "opt-label" };
+const _hoisted_60 = {
   key: 5,
   class: "commit-msg-wrap"
 };
-const _hoisted_43 = ["placeholder"];
-const _hoisted_44 = { class: "actions" };
-const _hoisted_45 = ["disabled"];
+const _hoisted_61 = ["placeholder"];
+const _hoisted_62 = { class: "actions" };
+const _hoisted_63 = ["disabled"];
 
 function _sfc_render$6(_ctx, _cache, $props, $setup, $data, $options) {
+  const _directive_click_outside = resolveDirective("click-outside");
+
   return (openBlock(), createElementBlock("div", _hoisted_1$b, [
     (!$options.isAuthenticated)
       ? (openBlock(), createElementBlock("div", _hoisted_2$6, [
-          _cache[12] || (_cache[12] = createBaseVNode("div", { class: "auth-icon" }, [
+          _cache[19] || (_cache[19] = createBaseVNode("div", { class: "auth-icon" }, [
             createBaseVNode("svg", {
               viewBox: "0 0 24 24",
               fill: "currentColor",
@@ -29470,7 +29689,7 @@ function _sfc_render$6(_ctx, _cache, $props, $setup, $data, $options) {
               createBaseVNode("path", { d: "M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z" })
             ])
           ], -1)),
-          _cache[13] || (_cache[13] = createBaseVNode("p", { class: "auth-hint" }, "Connect your GitHub account to sync your library.", -1)),
+          _cache[20] || (_cache[20] = createBaseVNode("p", { class: "auth-hint" }, "Connect your GitHub account to sync your library.", -1)),
           createBaseVNode("button", {
             class: "btn-primary",
             onClick: _cache[0] || (_cache[0] = (...args) => ($options.auth && $options.auth(...args)))
@@ -29490,12 +29709,12 @@ function _sfc_render$6(_ctx, _cache, $props, $setup, $data, $options) {
               createBaseVNode("div", _hoisted_7$2, toDisplayString($data.profile.name || $data.profile.login), 1),
               createBaseVNode("div", _hoisted_8$2, "@" + toDisplayString($data.profile.login) + " · " + toDisplayString($data.profile.publicRepos) + " public repos", 1)
             ]),
-            _cache[14] || (_cache[14] = createBaseVNode("div", { class: "auth-check" }, "✓", -1))
+            _cache[21] || (_cache[21] = createBaseVNode("div", { class: "auth-check" }, "✓", -1))
           ], 8, _hoisted_4$4),
           ($data.uploadComplete)
             ? (openBlock(), createElementBlock("div", _hoisted_9$2, [
                 createBaseVNode("div", _hoisted_10$2, [
-                  _cache[16] || (_cache[16] = createStaticVNode("<div class=\"complete-check\" data-v-7fba85b8><svg viewBox=\"0 0 24 24\" fill=\"none\" width=\"40\" height=\"40\" data-v-7fba85b8><circle cx=\"12\" cy=\"12\" r=\"11\" stroke=\"#4ade80\" stroke-width=\"1.5\" data-v-7fba85b8></circle><path d=\"M7 12.5l3.5 3.5 6.5-7\" stroke=\"#4ade80\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" data-v-7fba85b8></path></svg></div><div class=\"complete-title\" data-v-7fba85b8>Upload complete</div>", 2)),
+                  _cache[23] || (_cache[23] = createStaticVNode("<div class=\"complete-check-icon\" data-v-42dfa430><svg viewBox=\"0 0 24 24\" fill=\"none\" width=\"40\" height=\"40\" data-v-42dfa430><circle cx=\"12\" cy=\"12\" r=\"11\" stroke=\"#4ade80\" stroke-width=\"1.5\" data-v-42dfa430></circle><path d=\"M7 12.5l3.5 3.5 6.5-7\" stroke=\"#4ade80\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" data-v-42dfa430></path></svg></div><div class=\"complete-title\" data-v-42dfa430>Upload complete</div>", 2)),
                   ($data.completedPagesUrl)
                     ? (openBlock(), createElementBlock("a", {
                         key: 0,
@@ -29505,7 +29724,7 @@ function _sfc_render$6(_ctx, _cache, $props, $setup, $data, $options) {
                       }, toDisplayString($data.completedPagesUrl.replace(/^https?:\/\//, '').replace(/\/$/, '')), 9, _hoisted_11$2))
                     : createCommentVNode("", true),
                   ($data.completedPagesUrl)
-                    ? withDirectives((openBlock(), createElementBlock("div", _hoisted_12$2, [...(_cache[15] || (_cache[15] = [
+                    ? withDirectives((openBlock(), createElementBlock("div", _hoisted_12$2, [...(_cache[22] || (_cache[22] = [
                         createBaseVNode("span", { class: "building-dot" }, null, -1),
                         createTextVNode(" Publishing site… ", -1)
                       ]))], 512)), [
@@ -29519,186 +29738,260 @@ function _sfc_render$6(_ctx, _cache, $props, $setup, $data, $options) {
                     : createCommentVNode("", true),
                   createBaseVNode("button", {
                     class: "btn-ghost complete-back",
-                    onClick: _cache[1] || (_cache[1] = $event => ($data.uploadComplete = false))
+                    onClick: _cache[1] || (_cache[1] = (...args) => ($options.onCompleteBack && $options.onCompleteBack(...args)))
                   }, "← Back")
                 ])
               ]))
-            : (openBlock(), createElementBlock(Fragment, { key: 1 }, [
-                (!$data.isSyncing)
-                  ? (openBlock(), createElementBlock("div", _hoisted_14$2, [
-                      _cache[24] || (_cache[24] = createBaseVNode("label", { class: "repo-label" }, [
-                        createTextVNode(" Storage location "),
-                        createBaseVNode("span", { class: "term-hint" }, "git: repository")
-                      ], -1)),
-                      ($data.reposLoading)
-                        ? (openBlock(), createElementBlock("div", _hoisted_15$1, "Loading..."))
-                        : (openBlock(), createElementBlock("div", _hoisted_16$1, [
-                            withDirectives(createBaseVNode("select", {
-                              class: "repo-select",
-                              "onUpdate:modelValue": _cache[2] || (_cache[2] = $event => (($data.selectedRepo) = $event))
-                            }, [
-                              _cache[17] || (_cache[17] = createBaseVNode("option", { value: "__new__" }, "+ Create new storage location…", -1)),
-                              (openBlock(true), createElementBlock(Fragment, null, renderList($data.repos, (r) => {
-                                return (openBlock(), createElementBlock("option", {
-                                  key: r.name,
-                                  value: r.name
-                                }, toDisplayString(r.name), 9, _hoisted_17$1))
-                              }), 128))
-                            ], 512), [
-                              [vModelSelect, $data.selectedRepo]
-                            ])
-                          ])),
-                      ($data.selectedRepo === '__new__')
-                        ? (openBlock(), createElementBlock("div", _hoisted_18$1, [
-                            createBaseVNode("input", {
-                              class: "repo-input",
-                              value: $data.newRepoName,
-                              placeholder: "my-audible-library",
-                              onInput: _cache[3] || (_cache[3] = $event => ($data.newRepoName = $options.sanitizeRepoName($event.target.value))),
-                              onKeydown: _cache[4] || (_cache[4] = withKeys((...args) => ($options.createRepo && $options.createRepo(...args)), ["enter"]))
-                            }, null, 40, _hoisted_19$1),
-                            createBaseVNode("button", {
-                              class: "btn-sm",
-                              onClick: _cache[5] || (_cache[5] = (...args) => ($options.createRepo && $options.createRepo(...args))),
-                              disabled: !$data.newRepoName.trim()
-                            }, "Create", 8, _hoisted_20$1)
-                          ]))
-                        : createCommentVNode("", true),
-                      ($options.selectedRepoInfo)
-                        ? (openBlock(), createElementBlock("div", _hoisted_21$1, [
-                            createBaseVNode("div", _hoisted_22$1, [
-                              _cache[18] || (_cache[18] = createBaseVNode("span", { class: "info-label" }, "Last upload", -1)),
-                              createBaseVNode("span", _hoisted_23$1, toDisplayString($options.formatDate($options.selectedRepoInfo.pushedAt)), 1)
-                            ]),
-                            createBaseVNode("div", _hoisted_24$1, [
-                              _cache[19] || (_cache[19] = createBaseVNode("span", { class: "info-label" }, "Visibility", -1)),
-                              createBaseVNode("span", _hoisted_25$1, toDisplayString($options.selectedRepoInfo.private ? '🔒 private' : '🌐 public'), 1)
-                            ]),
-                            createBaseVNode("div", _hoisted_26, [
-                              _cache[20] || (_cache[20] = createBaseVNode("span", { class: "info-label" }, "Branch", -1)),
-                              createBaseVNode("span", _hoisted_27, toDisplayString($options.selectedRepoInfo.branch), 1)
-                            ]),
-                            createBaseVNode("div", _hoisted_28, [
-                              _cache[21] || (_cache[21] = createBaseVNode("span", { class: "info-label" }, "Location", -1)),
-                              createBaseVNode("a", {
-                                href: `https://github.com/${$data.profile.login}/${$options.selectedRepoInfo.name}`,
-                                target: "_blank",
-                                class: "info-link"
-                              }, " github.com/" + toDisplayString($data.profile.login) + "/" + toDisplayString($options.selectedRepoInfo.name), 9, _hoisted_29)
-                            ]),
-                            ($options.selectedRepoInfo.pagesUrl)
-                              ? (openBlock(), createElementBlock("div", _hoisted_30, [
-                                  _cache[22] || (_cache[22] = createBaseVNode("span", { class: "info-label" }, "Website", -1)),
-                                  createBaseVNode("span", _hoisted_31, [
-                                    createBaseVNode("a", {
-                                      href: $options.selectedRepoInfo.pagesUrl,
-                                      target: "_blank",
-                                      class: "pages-link"
-                                    }, toDisplayString($options.selectedRepoInfo.pagesUrl), 9, _hoisted_32),
-                                    createBaseVNode("span", {
-                                      class: normalizeClass(['pages-status', $options.selectedRepoInfo.pagesStatus])
-                                    }, toDisplayString($options.selectedRepoInfo.pagesStatus || '—'), 3)
-                                  ])
-                                ]))
-                              : (openBlock(), createElementBlock("div", _hoisted_33, [...(_cache[23] || (_cache[23] = [
-                                  createBaseVNode("span", { class: "info-label" }, "Website", -1),
-                                  createBaseVNode("span", {
-                                    class: "info-value",
-                                    style: {"opacity":"0.35"}
-                                  }, "not set up", -1)
-                                ]))]))
-                          ]))
-                        : createCommentVNode("", true)
-                    ]))
-                  : createCommentVNode("", true),
-                ($data.statusMessage)
-                  ? (openBlock(), createElementBlock("div", _hoisted_34, toDisplayString($data.statusMessage), 1))
-                  : createCommentVNode("", true),
-                ($data.progress.total > 0)
-                  ? (openBlock(), createElementBlock("div", _hoisted_35, [
-                      createBaseVNode("div", _hoisted_36, [
-                        createBaseVNode("div", {
-                          class: "progress-fill",
-                          style: normalizeStyle({ width: $data.progress.percent + '%' })
-                        }, null, 4)
-                      ]),
-                      createBaseVNode("div", _hoisted_37, [
-                        createTextVNode(toDisplayString($data.progress.percent) + "% ", 1),
-                        ($data.progress.total > 0)
-                          ? (openBlock(), createElementBlock("span", _hoisted_38, "(" + toDisplayString($data.progress.done) + "/" + toDisplayString($data.progress.total) + " files)", 1))
-                          : createCommentVNode("", true)
-                      ])
-                    ]))
-                  : createCommentVNode("", true),
-                ($data.isSyncing || $data.progress.stage)
-                  ? (openBlock(), createElementBlock("div", _hoisted_39, [
-                      (openBlock(true), createElementBlock(Fragment, null, renderList($data.stages, (s) => {
-                        return (openBlock(), createElementBlock("div", {
-                          key: s,
-                          class: normalizeClass(['stage', { active: $data.progress.stage === s, done: $options.stageIsDone(s) }])
-                        }, toDisplayString(s), 3))
-                      }), 128))
-                    ]))
-                  : createCommentVNode("", true),
-                (!$data.isSyncing)
-                  ? (openBlock(), createElementBlock("div", _hoisted_40, [
-                      createBaseVNode("label", _hoisted_41, [
-                        withDirectives(createBaseVNode("input", {
-                          type: "checkbox",
-                          "onUpdate:modelValue": _cache[6] || (_cache[6] = $event => (($data.includeReadme) = $event))
-                        }, null, 512), [
-                          [vModelCheckbox, $data.includeReadme]
-                        ]),
-                        _cache[25] || (_cache[25] = createTextVNode(" Include a link back to ALE on the storage page ", -1))
-                      ])
-                    ]))
-                  : createCommentVNode("", true),
-                (!$data.isSyncing)
-                  ? (openBlock(), createElementBlock("div", _hoisted_42, [
+            : ($data.uploadFailed)
+              ? (openBlock(), createElementBlock("div", _hoisted_14$2, [
+                  createBaseVNode("div", _hoisted_15$1, [
+                    _cache[24] || (_cache[24] = createStaticVNode("<div class=\"failed-icon\" data-v-42dfa430><svg viewBox=\"0 0 24 24\" fill=\"none\" width=\"40\" height=\"40\" data-v-42dfa430><circle cx=\"12\" cy=\"12\" r=\"11\" stroke=\"#ef4444\" stroke-width=\"1.5\" data-v-42dfa430></circle><path d=\"M8 8l8 8M16 8l-8 8\" stroke=\"#ef4444\" stroke-width=\"2\" stroke-linecap=\"round\" data-v-42dfa430></path></svg></div><div class=\"failed-title\" data-v-42dfa430>Upload failed</div>", 2)),
+                    createBaseVNode("div", _hoisted_16$1, toDisplayString($data.failedMessage), 1),
+                    createBaseVNode("div", _hoisted_17$1, [
                       createBaseVNode("button", {
-                        class: "btn-ghost commit-toggle",
-                        onClick: _cache[7] || (_cache[7] = $event => ($data.showCommitMessage = !$data.showCommitMessage))
-                      }, [
-                        createTextVNode(toDisplayString($data.showCommitMessage ? '▾' : '▸') + " Add upload note ", 1),
-                        _cache[26] || (_cache[26] = createBaseVNode("span", { class: "term-hint" }, "git: commit message", -1))
-                      ]),
-                      ($data.showCommitMessage)
-                        ? withDirectives((openBlock(), createElementBlock("textarea", {
-                            key: 0,
-                            class: "commit-input",
-                            "onUpdate:modelValue": _cache[8] || (_cache[8] = $event => (($data.commitMessage) = $event)),
-                            placeholder: $data.defaultCommitMessage,
-                            rows: "2"
-                          }, null, 8, _hoisted_43)), [
-                            [vModelText, $data.commitMessage]
-                          ])
-                        : createCommentVNode("", true)
-                    ]))
-                  : createCommentVNode("", true),
-                createBaseVNode("div", _hoisted_44, [
-                  ($data.isSyncing)
-                    ? (openBlock(), createElementBlock("button", {
-                        key: 0,
-                        class: "btn-cancel",
-                        onClick: _cache[9] || (_cache[9] = (...args) => ($options.cancel && $options.cancel(...args)))
-                      }, "Cancel"))
-                    : (openBlock(), createElementBlock(Fragment, { key: 1 }, [
+                        class: "btn-primary",
+                        onClick: _cache[2] || (_cache[2] = (...args) => ($options.retryUpload && $options.retryUpload(...args)))
+                      }, "Retry"),
+                      createBaseVNode("button", {
+                        class: "btn-ghost",
+                        onClick: _cache[3] || (_cache[3] = (...args) => ($options.onFailedBack && $options.onFailedBack(...args)))
+                      }, "← Back")
+                    ])
+                  ])
+                ]))
+              : (openBlock(), createElementBlock(Fragment, { key: 2 }, [
+                  (!$data.isSyncing)
+                    ? (openBlock(), createElementBlock("div", _hoisted_18$1, [
+                        _cache[32] || (_cache[32] = createBaseVNode("label", { class: "repo-label" }, [
+                          createTextVNode(" Project "),
+                          createBaseVNode("span", { class: "term-hint" }, "git: repository")
+                        ], -1)),
+                        ($data.reposLoading)
+                          ? (openBlock(), createElementBlock("div", _hoisted_19$1, "Loading..."))
+                          : (openBlock(), createElementBlock(Fragment, { key: 1 }, [
+                              withDirectives((openBlock(), createElementBlock("div", _hoisted_20$1, [
+                                createBaseVNode("div", {
+                                  class: "dropdown-trigger",
+                                  onClick: _cache[4] || (_cache[4] = (...args) => ($options.toggleDropdown && $options.toggleDropdown(...args)))
+                                }, [
+                                  ($data.selectedRepo === '__new__')
+                                    ? (openBlock(), createElementBlock("span", _hoisted_21$1, "+ Create new project…"))
+                                    : ($data.selectedRepo)
+                                      ? (openBlock(), createElementBlock("span", _hoisted_22$1, toDisplayString($data.selectedRepo), 1))
+                                      : (openBlock(), createElementBlock("span", _hoisted_23$1, "Select a project…")),
+                                  createBaseVNode("span", {
+                                    class: normalizeClass(["dropdown-arrow", { open: $data.dropdownOpen }])
+                                  }, "▾", 2)
+                                ]),
+                                ($data.dropdownOpen)
+                                  ? (openBlock(), createElementBlock("div", _hoisted_24$1, [
+                                      createBaseVNode("div", _hoisted_25$1, [
+                                        withDirectives(createBaseVNode("input", {
+                                          ref: "dropdownSearch",
+                                          class: "dropdown-search",
+                                          "onUpdate:modelValue": _cache[5] || (_cache[5] = $event => (($data.dropdownSearch) = $event)),
+                                          placeholder: "Search projects…",
+                                          onKeydown: [
+                                            _cache[6] || (_cache[6] = withKeys((...args) => ($options.closeDropdown && $options.closeDropdown(...args)), ["escape"])),
+                                            _cache[7] || (_cache[7] = withKeys((...args) => ($options.selectFirstResult && $options.selectFirstResult(...args)), ["enter"]))
+                                          ]
+                                        }, null, 544), [
+                                          [vModelText, $data.dropdownSearch]
+                                        ])
+                                      ]),
+                                      createBaseVNode("div", _hoisted_26, [
+                                        createBaseVNode("span", _hoisted_27, toDisplayString($data.showAllRepos ? 'All projects' : 'ALE projects only'), 1),
+                                        createBaseVNode("button", {
+                                          class: "dropdown-filter-btn",
+                                          onClick: _cache[8] || (_cache[8] = $event => ($data.showAllRepos = !$data.showAllRepos))
+                                        }, toDisplayString($data.showAllRepos ? 'Show ALE only' : 'Show all'), 1)
+                                      ]),
+                                      createBaseVNode("div", _hoisted_28, [
+                                        createBaseVNode("div", {
+                                          class: normalizeClass(["dropdown-item new-item", { selected: $data.selectedRepo === '__new__' }]),
+                                          onClick: _cache[9] || (_cache[9] = $event => ($options.selectRepo('__new__')))
+                                        }, "+ Create new project…", 2),
+                                        (openBlock(true), createElementBlock(Fragment, null, renderList($options.filteredRepos, (r) => {
+                                          return (openBlock(), createElementBlock("div", {
+                                            key: r.name,
+                                            class: normalizeClass(["dropdown-item", { selected: $data.selectedRepo === r.name }]),
+                                            onClick: $event => ($options.selectRepo(r.name))
+                                          }, [
+                                            createBaseVNode("span", _hoisted_30, toDisplayString(r.name), 1),
+                                            (r.isAleRepo)
+                                              ? (openBlock(), createElementBlock("span", _hoisted_31, "ALE"))
+                                              : createCommentVNode("", true)
+                                          ], 10, _hoisted_29))
+                                        }), 128)),
+                                        ($options.filteredRepos.length === 0)
+                                          ? (openBlock(), createElementBlock("div", _hoisted_32, " No projects found "))
+                                          : createCommentVNode("", true)
+                                      ])
+                                    ]))
+                                  : createCommentVNode("", true)
+                              ])), [
+                                [_directive_click_outside, $options.closeDropdown]
+                              ]),
+                              ($data.selectedRepo === '__new__')
+                                ? (openBlock(), createElementBlock("div", _hoisted_33, [
+                                    createBaseVNode("div", _hoisted_34, [
+                                      createBaseVNode("input", {
+                                        class: "repo-input",
+                                        value: $data.newRepoName,
+                                        placeholder: "my-audible-library",
+                                        onInput: _cache[10] || (_cache[10] = $event => ($data.newRepoName = $options.sanitizeRepoName($event.target.value))),
+                                        onKeydown: _cache[11] || (_cache[11] = withKeys((...args) => ($options.createRepo && $options.createRepo(...args)), ["enter"]))
+                                      }, null, 40, _hoisted_35),
+                                      createBaseVNode("button", {
+                                        class: "btn-sm",
+                                        onClick: _cache[12] || (_cache[12] = (...args) => ($options.createRepo && $options.createRepo(...args))),
+                                        disabled: !$data.newRepoName.trim()
+                                      }, "Create", 8, _hoisted_36)
+                                    ]),
+                                    ($data.newRepoName.trim())
+                                      ? (openBlock(), createElementBlock("div", _hoisted_37, [
+                                          _cache[25] || (_cache[25] = createBaseVNode("span", { class: "pages-preview-label" }, "Website URL will be", -1)),
+                                          createBaseVNode("span", _hoisted_38, toDisplayString($data.profile.login) + ".github.io/" + toDisplayString($data.newRepoName), 1)
+                                        ]))
+                                      : createCommentVNode("", true)
+                                  ]))
+                                : createCommentVNode("", true)
+                            ], 64)),
+                        ($options.selectedRepoInfo)
+                          ? (openBlock(), createElementBlock("div", _hoisted_39, [
+                              createBaseVNode("div", _hoisted_40, [
+                                _cache[26] || (_cache[26] = createBaseVNode("span", { class: "info-label" }, "Last upload", -1)),
+                                createBaseVNode("span", _hoisted_41, toDisplayString($options.formatDate($options.selectedRepoInfo.pushedAt)), 1)
+                              ]),
+                              createBaseVNode("div", _hoisted_42, [
+                                _cache[27] || (_cache[27] = createBaseVNode("span", { class: "info-label" }, "Visibility", -1)),
+                                createBaseVNode("span", _hoisted_43, toDisplayString($options.selectedRepoInfo.private ? '🔒 private' : '🌐 public'), 1)
+                              ]),
+                              createBaseVNode("div", _hoisted_44, [
+                                _cache[28] || (_cache[28] = createBaseVNode("span", { class: "info-label" }, "Branch", -1)),
+                                createBaseVNode("span", _hoisted_45, toDisplayString($options.selectedRepoInfo.branch), 1)
+                              ]),
+                              createBaseVNode("div", _hoisted_46, [
+                                _cache[29] || (_cache[29] = createBaseVNode("span", { class: "info-label" }, "Location", -1)),
+                                createBaseVNode("a", {
+                                  href: `https://github.com/${$data.profile.login}/${$options.selectedRepoInfo.name}`,
+                                  target: "_blank",
+                                  class: "info-link"
+                                }, " github.com/" + toDisplayString($data.profile.login) + "/" + toDisplayString($options.selectedRepoInfo.name), 9, _hoisted_47)
+                              ]),
+                              ($options.selectedRepoInfo.pagesUrl)
+                                ? (openBlock(), createElementBlock("div", _hoisted_48, [
+                                    _cache[30] || (_cache[30] = createBaseVNode("span", { class: "info-label" }, "Website", -1)),
+                                    createBaseVNode("span", _hoisted_49, [
+                                      createBaseVNode("a", {
+                                        href: $options.selectedRepoInfo.pagesUrl,
+                                        target: "_blank",
+                                        class: "pages-link"
+                                      }, toDisplayString($options.selectedRepoInfo.pagesUrl), 9, _hoisted_50),
+                                      createBaseVNode("span", {
+                                        class: normalizeClass(['pages-status', $options.selectedRepoInfo.pagesStatus])
+                                      }, toDisplayString($options.selectedRepoInfo.pagesStatus || '—'), 3)
+                                    ])
+                                  ]))
+                                : (openBlock(), createElementBlock("div", _hoisted_51, [...(_cache[31] || (_cache[31] = [
+                                    createBaseVNode("span", { class: "info-label" }, "Website", -1),
+                                    createBaseVNode("span", {
+                                      class: "info-value",
+                                      style: {"opacity":"0.35"}
+                                    }, "not set up", -1)
+                                  ]))]))
+                            ]))
+                          : createCommentVNode("", true)
+                      ]))
+                    : createCommentVNode("", true),
+                  ($data.statusMessage)
+                    ? (openBlock(), createElementBlock("div", _hoisted_52, toDisplayString($data.statusMessage), 1))
+                    : createCommentVNode("", true),
+                  ($data.progress.total > 0)
+                    ? (openBlock(), createElementBlock("div", _hoisted_53, [
+                        createBaseVNode("div", _hoisted_54, [
+                          createBaseVNode("div", {
+                            class: "progress-fill",
+                            style: normalizeStyle({ width: $data.progress.percent + '%' })
+                          }, null, 4)
+                        ]),
+                        createBaseVNode("div", _hoisted_55, [
+                          createTextVNode(toDisplayString($data.progress.percent) + "% ", 1),
+                          ($data.progress.total > 0)
+                            ? (openBlock(), createElementBlock("span", _hoisted_56, "(" + toDisplayString($data.progress.done) + "/" + toDisplayString($data.progress.total) + " files)", 1))
+                            : createCommentVNode("", true)
+                        ])
+                      ]))
+                    : createCommentVNode("", true),
+                  ($data.isSyncing || $data.progress.stage)
+                    ? (openBlock(), createElementBlock("div", _hoisted_57, [
+                        (openBlock(true), createElementBlock(Fragment, null, renderList($data.stages, (s) => {
+                          return (openBlock(), createElementBlock("div", {
+                            key: s,
+                            class: normalizeClass(['stage', { active: $data.progress.stage === s, done: $options.stageIsDone(s) }])
+                          }, toDisplayString(s), 3))
+                        }), 128))
+                      ]))
+                    : createCommentVNode("", true),
+                  (!$data.isSyncing && $options.canUpload)
+                    ? (openBlock(), createElementBlock("div", _hoisted_58, [
+                        createBaseVNode("label", _hoisted_59, [
+                          withDirectives(createBaseVNode("input", {
+                            type: "checkbox",
+                            "onUpdate:modelValue": _cache[13] || (_cache[13] = $event => (($data.includeReadme) = $event))
+                          }, null, 512), [
+                            [vModelCheckbox, $data.includeReadme]
+                          ]),
+                          _cache[33] || (_cache[33] = createTextVNode(" Include a link back to ALE on the project page ", -1))
+                        ])
+                      ]))
+                    : createCommentVNode("", true),
+                  (!$data.isSyncing && $options.canUpload)
+                    ? (openBlock(), createElementBlock("div", _hoisted_60, [
                         createBaseVNode("button", {
-                          class: "btn-primary",
-                          disabled: !$options.canUpload,
-                          onClick: _cache[10] || (_cache[10] = (...args) => ($options.uploadLibrary && $options.uploadLibrary(...args)))
-                        }, "Upload Library", 8, _hoisted_45),
-                        createBaseVNode("button", {
-                          class: "btn-ghost",
-                          onClick: _cache[11] || (_cache[11] = (...args) => ($options.signOut && $options.signOut(...args)))
-                        }, "Sign out")
-                      ], 64))
-                ])
-              ], 64))
+                          class: "btn-ghost commit-toggle",
+                          onClick: _cache[14] || (_cache[14] = $event => ($data.showCommitMessage = !$data.showCommitMessage))
+                        }, [
+                          createTextVNode(toDisplayString($data.showCommitMessage ? '▾' : '▸') + " Add upload note ", 1),
+                          _cache[34] || (_cache[34] = createBaseVNode("span", { class: "term-hint" }, "git: commit message", -1))
+                        ]),
+                        ($data.showCommitMessage)
+                          ? withDirectives((openBlock(), createElementBlock("textarea", {
+                              key: 0,
+                              class: "commit-input",
+                              "onUpdate:modelValue": _cache[15] || (_cache[15] = $event => (($data.commitMessage) = $event)),
+                              placeholder: $data.defaultCommitMessage,
+                              rows: "2"
+                            }, null, 8, _hoisted_61)), [
+                              [vModelText, $data.commitMessage]
+                            ])
+                          : createCommentVNode("", true)
+                      ]))
+                    : createCommentVNode("", true),
+                  createBaseVNode("div", _hoisted_62, [
+                    ($data.isSyncing)
+                      ? (openBlock(), createElementBlock("button", {
+                          key: 0,
+                          class: "btn-cancel",
+                          onClick: _cache[16] || (_cache[16] = (...args) => ($options.cancel && $options.cancel(...args)))
+                        }, "Cancel"))
+                      : (openBlock(), createElementBlock(Fragment, { key: 1 }, [
+                          createBaseVNode("button", {
+                            class: "btn-primary",
+                            disabled: !$options.canUpload,
+                            onClick: _cache[17] || (_cache[17] = (...args) => ($options.uploadLibrary && $options.uploadLibrary(...args)))
+                          }, "Upload Library", 8, _hoisted_63),
+                          createBaseVNode("button", {
+                            class: "btn-ghost",
+                            onClick: _cache[18] || (_cache[18] = (...args) => ($options.signOut && $options.signOut(...args)))
+                          }, "Sign out")
+                        ], 64))
+                  ])
+                ], 64))
         ]))
   ]))
 }
-const __unplugin_components_2 = /*#__PURE__*/_export_sfc(_sfc_main$6, [['render',_sfc_render$6],['__scopeId',"data-v-7fba85b8"]]);
+const __unplugin_components_2 = /*#__PURE__*/_export_sfc(_sfc_main$6, [['render',_sfc_render$6],['__scopeId',"data-v-42dfa430"]]);
 
 const _hoisted_1$a = {
   viewBox: "0 0 512 512",
@@ -36693,13 +36986,13 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
 }
 const aleLibraryView = /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]]);
 
-const aleGallery     = () => __vitePreload(() => import('./gallery-root.C5t0svKo.js'),true?__vite__mapDeps([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]):void 0,import.meta.url);
-const aleCollections = () => __vitePreload(() => import('./gallery-collections.R5wExXhi.js'),true?__vite__mapDeps([19,1,2,3,10,5,6,11,4,14,15,16,17,20]):void 0,import.meta.url);
-const aleCategories  = () => __vitePreload(() => import('./gallery-categories.J5szFvCP.js'),true?__vite__mapDeps([21,2,3,4,8,9,10,5,6,11,14,15,16,17,22]):void 0,import.meta.url);
-const aleSeries      = () => __vitePreload(() => import('./gallery-series.P9K0A0qF.js'),true?__vite__mapDeps([23,1,2,3,7,8,9,10,5,6,11,12,13,4,14,15,16,17,24]):void 0,import.meta.url);
-const aleAuthors     = () => __vitePreload(() => import('./gallery-authors.B8AfP32K.js'),true?__vite__mapDeps([25,1,2,3,7,8,9,10,5,6,11,12,13,4,14,15,16,17,26]):void 0,import.meta.url);
-const aleNarrators   = () => __vitePreload(() => import('./gallery-narrators.BrtB5Q_N.js'),true?__vite__mapDeps([27,1,2,3,7,8,9,10,5,6,11,12,13,4,14,15,16,17,28]):void 0,import.meta.url);
-const alePublishers  = () => __vitePreload(() => import('./gallery-publishers.DrkBsRiw.js'),true?__vite__mapDeps([29,1,2,3,7,8,9,10,5,6,11,12,13,4,14,15,16,17,30]):void 0,import.meta.url);
+const aleGallery     = () => __vitePreload(() => import('./gallery-root.B8FsXNDt.js'),true?__vite__mapDeps([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]):void 0,import.meta.url);
+const aleCollections = () => __vitePreload(() => import('./gallery-collections.DmP4PSdR.js'),true?__vite__mapDeps([18,1,2,3,10,5,6,11,4,13,14,15,16,19]):void 0,import.meta.url);
+const aleCategories  = () => __vitePreload(() => import('./gallery-categories.aiphk6-h.js'),true?__vite__mapDeps([20,2,3,4,8,9,10,5,6,11,13,14,15,16,21]):void 0,import.meta.url);
+const aleSeries      = () => __vitePreload(() => import('./gallery-series.39q9PKl2.js'),true?__vite__mapDeps([22,1,2,3,7,8,9,10,5,6,11,12,4,13,14,15,16,23]):void 0,import.meta.url);
+const aleAuthors     = () => __vitePreload(() => import('./gallery-authors.B6O8YoLz.js'),true?__vite__mapDeps([24,1,2,3,7,8,9,10,5,6,11,12,4,13,14,15,16,25]):void 0,import.meta.url);
+const aleNarrators   = () => __vitePreload(() => import('./gallery-narrators.39BMwrBY.js'),true?__vite__mapDeps([26,1,2,3,7,8,9,10,5,6,11,12,4,13,14,15,16,27]):void 0,import.meta.url);
+const alePublishers  = () => __vitePreload(() => import('./gallery-publishers.B23-UBiy.js'),true?__vite__mapDeps([28,1,2,3,7,8,9,10,5,6,11,12,4,13,14,15,16,29]):void 0,import.meta.url);
 
 const allRoutes = {
   library: { 
