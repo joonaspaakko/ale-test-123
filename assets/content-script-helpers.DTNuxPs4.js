@@ -1,5 +1,5 @@
 import { c as commonjsGlobal, g as getDefaultExportFromCjs } from './jquery.3Hs3vqLI.js';
-import { c as commonjsRequire } from './jszip.BBGmtqMN.js';
+import { c as commonjsRequire } from './jszip.HPtxegej.js';
 
 var url_min = {exports: {}};
 

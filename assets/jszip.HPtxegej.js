@@ -27,12 +27,12 @@ const JSZip = /*@__PURE__*/getDefaultExportFromCjs(jszip_minExports);
 
 /*globals Promise */
 
-var JSZipUtils$1 = {};
+var JSZipUtils = {};
 // just use the responseText with xhr1, response with xhr2.
 // The transformation doesn't throw away high-order byte (with responseText)
 // because JSZip handles that case. If not used with JSZip, you may need to
 // do it, see https://developer.mozilla.org/En/Using_XMLHttpRequest#Handling_binary_data
-JSZipUtils$1._getBinaryFromXHR = function (xhr) {
+JSZipUtils._getBinaryFromXHR = function (xhr) {
     // for xhr.responseText, the 0xFF mask is applied by JSZip
     return xhr.response || xhr.responseText;
 };
@@ -70,7 +70,7 @@ var createXHR = (typeof window !== "undefined" && window.ActiveXObject) ?
  * @param  {function|{callback: function, progress: function}} options
  * @return {Promise|undefined} If no callback is passed then a promise is returned
  */
-JSZipUtils$1.getBinaryContent = function (path, options) {
+JSZipUtils.getBinaryContent = function (path, options) {
     var promise, resolve, reject;
     var callback;
 
@@ -131,7 +131,7 @@ JSZipUtils$1.getBinaryContent = function (path, options) {
             if (xhr.readyState === 4) {
                 if (xhr.status === 200 || xhr.status === 0) {
                     try {
-                        resolve(JSZipUtils$1._getBinaryFromXHR(xhr));
+                        resolve(JSZipUtils._getBinaryFromXHR(xhr));
                     } catch(err) {
                         reject(new Error(err));
                     }
@@ -165,11 +165,11 @@ JSZipUtils$1.getBinaryContent = function (path, options) {
 };
 
 // export
-var lib = JSZipUtils$1;
+var lib = JSZipUtils;
 
 // enforcing Stuk's coding style
 // vim: set shiftwidth=4 softtabstop=4:
 
-const JSZipUtils = /*@__PURE__*/getDefaultExportFromCjs(lib);
+const JSZipUtils$1 = /*@__PURE__*/getDefaultExportFromCjs(lib);
 
-export { JSZip as J, JSZipUtils as a, commonjsRequire as c };
+export { JSZip as J, JSZipUtils$1 as a, commonjsRequire as c };
