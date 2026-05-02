@@ -1,12 +1,12 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./gallery-root.dhxR_MLd.js","./gallery-lazy.BVsJ3eWf.js","./lodash.Cy6RZ5mX.js","./jquery.3Hs3vqLI.js","./gallery-makeCoverUrl.BnX14Pi7.js","./content-script-helpers.DZxzr4Lc.js","./jszip.BBGmtqMN.js","./gallery-search.DkKiNGb9.js","./gallery-findSubPageSource.CB10VwdW.js","./gallery-findSubPageSource.CiwUdFXD.css","./gallery-page-title.Bom0rECk.js","./gallery-page-title.DIkdMpKg.css","./gallery-search.BzpeHrzh.css","./index.9Z32wZYy.js","./howler.B9zQKWVB.js","./tippy.D2CvuMJV.js","./tippy.CccQYZjX.css","./gallery-root.DbZgvYv3.css","./gallery-collections.BBPUQ2_i.js","./gallery-collections.CfEzgue_.css","./gallery-categories.BUqpWZGm.js","./gallery-categories.TnEyMgJ6.css","./gallery-series.1c6f4hob.js","./gallery-series.BUI5za12.css","./gallery-authors.Bz2A0Amg.js","./gallery-authors.B_KccURD.css","./gallery-narrators.DxKUqoBO.js","./gallery-narrators.BS7nEc6d.css","./gallery-publishers.arE-V885.js","./gallery-publishers.B7FoxqaF.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./gallery-root.DYSrf9Rx.js","./gallery-lazy.BVsJ3eWf.js","./lodash.Cy6RZ5mX.js","./jquery.3Hs3vqLI.js","./gallery-makeCoverUrl.BnX14Pi7.js","./content-script-helpers.D7-AExPd.js","./jszip.HPtxegej.js","./gallery-search.Btv6hspJ.js","./gallery-findSubPageSource.CB10VwdW.js","./gallery-findSubPageSource.CiwUdFXD.css","./gallery-page-title.BjxZ-yuP.js","./gallery-page-title.DIkdMpKg.css","./gallery-search.BzpeHrzh.css","./index.9Z32wZYy.js","./howler.B9zQKWVB.js","./tippy.D2CvuMJV.js","./tippy.CccQYZjX.css","./gallery-root.DbZgvYv3.css","./gallery-collections.BT-4kP_o.js","./gallery-collections.CfEzgue_.css","./gallery-categories.k7XjYskx.js","./gallery-categories.TnEyMgJ6.css","./gallery-series.DkTGe02K.js","./gallery-series.BUI5za12.css","./gallery-authors.ircR4Eov.js","./gallery-authors.B_KccURD.css","./gallery-narrators.DBtKsSty.js","./gallery-narrators.BS7nEc6d.css","./gallery-publishers.Bn2j3s5n.js","./gallery-publishers.B7FoxqaF.css"])))=>i.map(i=>d[i]);
 import { m as makeCoverUrl } from './gallery-makeCoverUrl.BnX14Pi7.js';
 import { m as markRaw, o as openBlock, c as createElementBlock, a as createBaseVNode, _ as _export_sfc, w as withDirectives, v as vShow, n as normalizeStyle, b as createVNode, t as toDisplayString, d as createCommentVNode, r as resolveDirective, e as resolveComponent, f as withModifiers, g as normalizeClass, h as createBlock, F as Fragment, i as renderList, j as withCtx, k as normalizeProps, l as resolveDynamicComponent, p as renderSlot, q as createStaticVNode, s as createTextVNode, u as withKeys, x as vModelText, y as vModelCheckbox, z as vModelRadio, A as _$1, B as unref, C as shallowReactive, D as shallowRef, E as defineComponent, G as inject, H as h, I as reactive, J as computed, K as watch, L as ref, M as nextTick, N as provide, O as createApp } from './lodash.Cy6RZ5mX.js';
 import { c as commonjsGlobal, g as getDefaultExportFromCjs } from './jquery.3Hs3vqLI.js';
 import { r as require$$0, s as shortkey } from './index.9Z32wZYy.js';
-import { a as axios, F as Fuse, U as Url, t as toDate, c as constructFrom, n as normalizeDates, d as differenceInCalendarDays, m as millisecondsInHour, b as millisecondsInMinute, g as getDefaultOptions, s as secondsToTimeString, e as timeStringToSeconds, h as helpers } from './content-script-helpers.DZxzr4Lc.js';
+import { a as axios, F as Fuse, U as Url, t as toDate, c as constructFrom, n as normalizeDates, d as differenceInCalendarDays, m as millisecondsInHour, b as millisecondsInMinute, g as getDefaultOptions, s as secondsToTimeString, e as timeStringToSeconds, h as helpers } from './content-script-helpers.D7-AExPd.js';
 import { h as howler } from './howler.B9zQKWVB.js';
 import { e as enUS, c as createStore, m as mitt, p as plugin } from './tippy.D2CvuMJV.js';
-import './jszip.BBGmtqMN.js';
+import './jszip.HPtxegej.js';
 
 const _hoisted_1$O = {
   viewBox: "0 0 24 24",
@@ -37482,13 +37482,13 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
 }
 const aleLibraryView = /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]]);
 
-const aleGallery     = () => __vitePreload(() => import('./gallery-root.dhxR_MLd.js'),true?__vite__mapDeps([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]):void 0,import.meta.url);
-const aleCollections = () => __vitePreload(() => import('./gallery-collections.BBPUQ2_i.js'),true?__vite__mapDeps([18,1,2,3,10,5,6,11,4,13,14,15,16,19]):void 0,import.meta.url);
-const aleCategories  = () => __vitePreload(() => import('./gallery-categories.BUqpWZGm.js'),true?__vite__mapDeps([20,2,3,4,8,9,10,5,6,11,13,14,15,16,21]):void 0,import.meta.url);
-const aleSeries      = () => __vitePreload(() => import('./gallery-series.1c6f4hob.js'),true?__vite__mapDeps([22,1,2,3,7,8,9,10,5,6,11,12,4,13,14,15,16,23]):void 0,import.meta.url);
-const aleAuthors     = () => __vitePreload(() => import('./gallery-authors.Bz2A0Amg.js'),true?__vite__mapDeps([24,1,2,3,7,8,9,10,5,6,11,12,4,13,14,15,16,25]):void 0,import.meta.url);
-const aleNarrators   = () => __vitePreload(() => import('./gallery-narrators.DxKUqoBO.js'),true?__vite__mapDeps([26,1,2,3,7,8,9,10,5,6,11,12,4,13,14,15,16,27]):void 0,import.meta.url);
-const alePublishers  = () => __vitePreload(() => import('./gallery-publishers.arE-V885.js'),true?__vite__mapDeps([28,1,2,3,7,8,9,10,5,6,11,12,4,13,14,15,16,29]):void 0,import.meta.url);
+const aleGallery     = () => __vitePreload(() => import('./gallery-root.DYSrf9Rx.js'),true?__vite__mapDeps([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]):void 0,import.meta.url);
+const aleCollections = () => __vitePreload(() => import('./gallery-collections.BT-4kP_o.js'),true?__vite__mapDeps([18,1,2,3,10,5,6,11,4,13,14,15,16,19]):void 0,import.meta.url);
+const aleCategories  = () => __vitePreload(() => import('./gallery-categories.k7XjYskx.js'),true?__vite__mapDeps([20,2,3,4,8,9,10,5,6,11,13,14,15,16,21]):void 0,import.meta.url);
+const aleSeries      = () => __vitePreload(() => import('./gallery-series.DkTGe02K.js'),true?__vite__mapDeps([22,1,2,3,7,8,9,10,5,6,11,12,4,13,14,15,16,23]):void 0,import.meta.url);
+const aleAuthors     = () => __vitePreload(() => import('./gallery-authors.ircR4Eov.js'),true?__vite__mapDeps([24,1,2,3,7,8,9,10,5,6,11,12,4,13,14,15,16,25]):void 0,import.meta.url);
+const aleNarrators   = () => __vitePreload(() => import('./gallery-narrators.DBtKsSty.js'),true?__vite__mapDeps([26,1,2,3,7,8,9,10,5,6,11,12,4,13,14,15,16,27]):void 0,import.meta.url);
+const alePublishers  = () => __vitePreload(() => import('./gallery-publishers.Bn2j3s5n.js'),true?__vite__mapDeps([28,1,2,3,7,8,9,10,5,6,11,12,4,13,14,15,16,29]):void 0,import.meta.url);
 
 const allRoutes = {
   library: { 

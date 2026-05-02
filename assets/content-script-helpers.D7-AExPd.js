@@ -1,5 +1,5 @@
 import { c as commonjsGlobal, g as getDefaultExportFromCjs } from './jquery.3Hs3vqLI.js';
-import { c as commonjsRequire } from './jszip.BBGmtqMN.js';
+import { c as commonjsRequire } from './jszip.HPtxegej.js';
 
 /**
  * Fuse.js v6.6.2 - Lightweight fuzzy-search (http://fusejs.io)
