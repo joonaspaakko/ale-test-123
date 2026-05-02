@@ -1,9 +1,9 @@
 import { _ as __unplugin_components_1 } from './gallery-lazy.BVsJ3eWf.js';
-import { _ as __unplugin_components_0 } from './gallery-page-title.CJf63hEH.js';
-import { c as slugify } from './gallery.DZHAONmf.js';
+import { _ as __unplugin_components_0 } from './gallery-page-title.Bom0rECk.js';
+import { c as slugify } from './gallery.D7yvJa9G.js';
 import { m as makeCoverUrl } from './gallery-makeCoverUrl.BnX14Pi7.js';
 import { _ as _export_sfc, o as openBlock, c as createElementBlock, b as createVNode, a as createBaseVNode, t as toDisplayString, F as Fragment, i as renderList, d as createCommentVNode, e as resolveComponent, r as resolveDirective, g as normalizeClass, h as createBlock, j as withCtx, w as withDirectives } from './lodash.Cy6RZ5mX.js';
-import './content-script-helpers.BqIDHt5n.js';
+import './content-script-helpers.DZxzr4Lc.js';
 import './jquery.3Hs3vqLI.js';
 import './jszip.BBGmtqMN.js';
 import './index.9Z32wZYy.js';
