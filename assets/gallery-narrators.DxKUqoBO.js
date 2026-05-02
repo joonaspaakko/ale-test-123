@@ -1,6 +1,6 @@
 import { _ as __unplugin_components_1 } from './gallery-lazy.BVsJ3eWf.js';
-import { a as __unplugin_components_0 } from './gallery-search.CEm0Js37.js';
-import { c as slugify } from './gallery.D7yvJa9G.js';
+import { a as __unplugin_components_0 } from './gallery-search.DkKiNGb9.js';
+import { c as slugify } from './gallery.CzMMdZ_k.js';
 import { f as findSubPageSource } from './gallery-findSubPageSource.CB10VwdW.js';
 import { _ as _export_sfc, o as openBlock, c as createElementBlock, b as createVNode, a as createBaseVNode, F as Fragment, i as renderList, n as normalizeStyle, d as createCommentVNode, e as resolveComponent, r as resolveDirective, h as createBlock, j as withCtx, t as toDisplayString, w as withDirectives, s as createTextVNode } from './lodash.Cy6RZ5mX.js';
 import './gallery-page-title.Bom0rECk.js';
@@ -15,13 +15,13 @@ import './tippy.D2CvuMJV.js';
 /* unplugin-vue-components disabled */
 
 const _sfc_main = {
-  name: "aleAuthors",
+  name: "aleNarrators",
   mixins: [slugify, findSubPageSource],
   data: function() {
     return {
       collectionSource: 'pageCollection',
       listReady: false,
-      pageTitle: 'Authors',
+      pageTitle: 'Narrators',
       pageSubTitle: null,
     };
   },
@@ -59,41 +59,41 @@ const _sfc_main = {
   },
   
   methods: {
-    
+      
     makeCollection: function() {
       
       const vue = this;
-      let authorsCollection = [];
+      let narratorsCollection = [];
       let addedCounter = 1;
       
-      // Processed in reverse order so that the "added" order is based on the first book added to the library of each author.
+      // Processed in reverse order so that the "added" order is based on the first book added to the library of each narrator.
       _.eachRight(vue.subPageSource.collection, function(book) {
-        if ( book.authors ) {
+        if (book.narrators) {
           
-          _.each(book.authors, function(author) {
-            if ( author.name && author.url ) {
+          _.each(book.narrators, function(narrator) {
+            if ( narrator.name ) {
               
-              let authorsAdded = _.find(authorsCollection, { name: author.name });
+              let narratorsAdded = _.find(narratorsCollection, { name: narrator.name });
               
-              // Author not in the collection so add it with the book...
-              if ( !authorsAdded ) {
+              // Narrator not in the collection so add it with the book...
+              if ( !narratorsAdded ) {
                 const newSeries = {
-                  name: author.name,
-                  url: author.url,
+                  name: narrator.name,
+                  url: vue.slugify(narrator.name),
                   added: addedCounter,
                   books: [ book.title || book.shortTitle ],
-                  narrators: book.narrators,
+                  authors: book.authors,
                   publishers: book.publishers,
                   series: book.series,
                 };
                 
-                authorsCollection.push( newSeries );
+                narratorsCollection.push( newSeries );
                 ++addedCounter;
                 
               }
               // Series already exists in the collection so just add the book...
               else {
-                authorsAdded.books.push( book.title || book.shortTitle );
+                narratorsAdded.books.push( book.title || book.shortTitle );
                 return false;
               }
               
@@ -103,9 +103,9 @@ const _sfc_main = {
         }
       });
       
-      _.reverse( authorsCollection );
+      _.reverse( narratorsCollection );
       
-      this.$store.commit("prop", { key: "pageCollection", value: authorsCollection });
+      this.$store.commit("prop", { key: "pageCollection", value: narratorsCollection });
       this.updateListRenderingOptions();
       
       this.listReady = true;
@@ -116,17 +116,18 @@ const _sfc_main = {
       let vue = this;
       const list = {
         scope: [
-          { active: true,  key: 'name', tippy: 'Search authors by name', weight: 5 },
-          { active: true,  key: 'books', tippy: 'Search authors by book titles', weight: 1 },
-          { active: true,  key: 'narrators.name', tippy: 'Search authors by narrators', weight: 1 },
-          { active: true,  key: 'publishers.name', tippy: 'Search authors by publishers', weight: 1 },
-          { active: true,  key: 'series.name', tippy: 'Search authors by series', weight: 1 },
+          { active: true,  key: 'name', tippy: 'Search narrators by name', weight: 5 },
+          { active: true,  key: 'books', tippy: 'Search narrators by book titles', weight: 1 },
+          { active: true,  key: 'authors.name', tippy: 'Search narrators by authors', weight: 1 },
+          { active: true,  key: 'publishers.name', tippy: 'Search narrators by publishers', weight: 1 },
+          { active: true,  key: 'series.name', tippy: 'Search narrators by series', weight: 1 },
         ],
         filter: [
+          
           { active: false, type: 'filterExtras', label: 'Number of books', key: 'books', range: [1, (function() {
-            let authors = _.get(vue.$store.state, vue.collectionSource);
-            let max = _.maxBy( authors, function( author ){ 
-              if (author.books) return author.books.length;
+            let narrators = _.get(vue.$store.state, vue.collectionSource);
+            let max = _.maxBy( narrators, function( narrator ){ 
+              if (narrator.books) return narrator.books.length;
             });
             return max ? max.books.length : 1; 
           }())], rangeMinDist: 0, rangeSuffix: '', 
@@ -134,17 +135,17 @@ const _sfc_main = {
             return 1; 
           }, 
           rangeMax: function() { 
-            let authors = _.get(vue.$store.state, vue.collectionSource);
-            let max = _.maxBy( authors, function( author ){ 
-              if (author.books) return author.books.length;
+            let narrators = _.get(vue.$store.state, vue.collectionSource);
+            let max = _.maxBy( narrators, function( narrator ){ 
+              if (narrator.books) return narrator.books.length;
             });
             return max ? max.books.length : 1; 
           }, 
-          condition: function( author ) { 
-            if ( author.books ) {
+          condition: function( narrator ) { 
+            if ( narrator.books ) {
               let min = this.range[0];
               let max = this.range[1];
-              return author.books.length >= min && author.books.length <= max; 
+              return narrator.books.length >= min && narrator.books.length <= max; 
             } 
           } },
         ],
@@ -153,7 +154,7 @@ const _sfc_main = {
           { type: 'divider', key: 'divider1' },
           // active: true = arrow down / descending
           { active: true,  current: true,  key: 'added',     label: 'Added',   			   type: 'sort', tippy: '<div style="text-align: left;"><small>&#9650;</small> Old at the top <br><small style="display: inline-block; transform: rotate(180deg);">&#9650;</small> New at the top</div>' },
-          { active: true,  current: false, key: 'name',      label: 'Name',        		 type: 'sort', tippy: "Sort by author's name" },
+          { active: true,  current: false, key: 'name',      label: 'Name',        		 type: 'sort', tippy: "Sort by narrator's name" },
           { active: false,  current: false, key: 'amount',    label: 'Number of books', type: 'sort' },
         ],
       };
@@ -167,7 +168,7 @@ const _sfc_main = {
 const _hoisted_1 = {
   key: 0,
   class: "books-total",
-  content: "Total number of books with this author."
+  content: "Total number of books with this narrator."
 };
 
 function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -179,7 +180,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
   return (_ctx.listReady)
     ? (openBlock(), createElementBlock("div", {
         key: 0,
-        id: "ale-authors",
+        id: "ale-narrators",
         class: "box-layout-wrapper",
         style: normalizeStyle($options.optionsOpenMargin),
         ref: "wrapper"
@@ -193,11 +194,11 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
             return (openBlock(), createBlock(_component_gallery_lazy, {
               class: "single-box",
               "data-name": item.name,
-              key: 'authors:'+item.name
+              key: 'narrators:'+item.name
             }, {
               default: withCtx(() => [
                 createVNode(_component_router_link, {
-                  to: { name: 'author', params: { author: item.url }, query: { subPageSource: _ctx.subPageSource.name } }
+                  to: { name: 'narrator', params: { narrator: item.url }, query: { subPageSource: _ctx.subPageSource.name } }
                 }, {
                   default: withCtx(() => [
                     createBaseVNode("h2", null, toDisplayString(item.name), 1),
@@ -219,6 +220,6 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
       ], 4))
     : createCommentVNode("", true)
 }
-const galleryAuthors = /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render],['__scopeId',"data-v-3c154e8a"]]);
+const galleryNarrators = /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render],['__scopeId',"data-v-a99a4676"]]);
 
-export { galleryAuthors as default };
+export { galleryNarrators as default };
