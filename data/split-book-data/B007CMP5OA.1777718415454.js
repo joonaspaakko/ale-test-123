@@ -1,1 +1,0 @@
-window.bookSummaryJSON = "<p>Bahzell is no knight in shining armor, and besides he has too many problems of his own to be messing with anybody else's problems - let alone the War God's. Unfortunately, the War God has other ideas for him.</p>"; 

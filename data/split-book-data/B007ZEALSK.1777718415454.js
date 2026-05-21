@@ -1,1 +1,0 @@
-window.bookSummaryJSON = "<p>More than a millennium after the human race forges an uneasy stalemate against the demonic human-psyche feeders known as the fae, a pain-hungry demon called Calesta declares war on all living beings. </p>"; 
