@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./gallery-root.BsuwiM-N.js","./gallery-lazy.BVsJ3eWf.js","./lodash.Cy6RZ5mX.js","./jquery.3Hs3vqLI.js","./gallery-makeCoverUrl.BnX14Pi7.js","./content-script-helpers.D7-AExPd.js","./jszip.HPtxegej.js","./gallery-search.D0MGrgBs.js","./gallery-findSubPageSource.CB10VwdW.js","./gallery-findSubPageSource.CiwUdFXD.css","./gallery-page-title.BjxZ-yuP.js","./gallery-page-title.DIkdMpKg.css","./gallery-search.BzpeHrzh.css","./index.9Z32wZYy.js","./howler.B9zQKWVB.js","./tippy.D2CvuMJV.js","./tippy.CccQYZjX.css","./gallery-root.BzVeR_YH.css","./gallery-collections.uv5QdGuf.js","./gallery-collections.CfEzgue_.css","./gallery-categories.Bt0BS-TO.js","./gallery-categories.TnEyMgJ6.css","./gallery-series.DaU5ryd9.js","./gallery-series.BUI5za12.css","./gallery-authors.juDt-KIY.js","./gallery-authors.B_KccURD.css","./gallery-narrators.Bo95WZSR.js","./gallery-narrators.BS7nEc6d.css","./gallery-publishers.BvARw4e8.js","./gallery-publishers.B7FoxqaF.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./gallery-root.kyxAnF7K.js","./gallery-lazy.BVsJ3eWf.js","./lodash.Cy6RZ5mX.js","./jquery.3Hs3vqLI.js","./gallery-makeCoverUrl.BnX14Pi7.js","./content-script-helpers.D7-AExPd.js","./jszip.HPtxegej.js","./gallery-search.BERSfQ2i.js","./gallery-findSubPageSource.CB10VwdW.js","./gallery-findSubPageSource.CiwUdFXD.css","./gallery-page-title.BjxZ-yuP.js","./gallery-page-title.DIkdMpKg.css","./gallery-search.BzpeHrzh.css","./index.9Z32wZYy.js","./howler.B9zQKWVB.js","./tippy.D2CvuMJV.js","./tippy.CccQYZjX.css","./gallery-root.BzVeR_YH.css","./gallery-collections.CMQ8DCFO.js","./gallery-collections.CfEzgue_.css","./gallery-categories.DtcefoLy.js","./gallery-categories.TnEyMgJ6.css","./gallery-series.fPPjHmLz.js","./gallery-series.BUI5za12.css","./gallery-authors.CYMWfEZD.js","./gallery-authors.B_KccURD.css","./gallery-narrators.BdG6cvTL.js","./gallery-narrators.BS7nEc6d.css","./gallery-publishers.BgDPX5S6.js","./gallery-publishers.B7FoxqaF.css"])))=>i.map(i=>d[i]);
 import { m as makeCoverUrl } from './gallery-makeCoverUrl.BnX14Pi7.js';
 import { m as markRaw, o as openBlock, c as createElementBlock, a as createBaseVNode, _ as _export_sfc, w as withDirectives, v as vShow, n as normalizeStyle, b as createVNode, t as toDisplayString, d as createCommentVNode, r as resolveDirective, e as resolveComponent, f as withModifiers, g as normalizeClass, h as createBlock, F as Fragment, i as renderList, j as withCtx, k as normalizeProps, l as resolveDynamicComponent, p as renderSlot, q as createStaticVNode, s as createTextVNode, u as withKeys, x as vModelText, y as vModelCheckbox, z as vModelRadio, A as _$1, B as unref, C as shallowReactive, D as shallowRef, E as defineComponent, G as inject, H as h, I as reactive, J as computed, K as watch, L as ref, M as nextTick, N as provide, O as createApp } from './lodash.Cy6RZ5mX.js';
 import { c as commonjsGlobal, g as getDefaultExportFromCjs } from './jquery.3Hs3vqLI.js';
@@ -2059,13 +2059,13 @@ function _sfc_render$a(_ctx, _cache, $props, $setup, $data, $options) {
 
   return (openBlock(), createElementBlock("div", _hoisted_1$j, [
     createBaseVNode("div", _hoisted_2$9, [
-      _cache[1] || (_cache[1] = createStaticVNode("<div class=\"complete-check-icon\" data-v-1e5824b9><svg viewBox=\"0 0 24 24\" fill=\"none\" width=\"40\" height=\"40\" data-v-1e5824b9><circle cx=\"12\" cy=\"12\" r=\"11\" stroke=\"#4ade80\" stroke-width=\"1.5\" data-v-1e5824b9></circle><path d=\"M7 12.5l3.5 3.5 6.5-7\" stroke=\"#4ade80\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" data-v-1e5824b9></path></svg></div><div class=\"complete-title\" data-v-1e5824b9>Upload complete</div>", 2)),
+      _cache[1] || (_cache[1] = createStaticVNode("<div class=\"complete-check-icon\" data-v-c51aa3ab><svg viewBox=\"0 0 24 24\" fill=\"none\" width=\"40\" height=\"40\" data-v-c51aa3ab><circle cx=\"12\" cy=\"12\" r=\"11\" stroke=\"#4ade80\" stroke-width=\"1.5\" data-v-c51aa3ab></circle><path d=\"M7 12.5l3.5 3.5 6.5-7\" stroke=\"#4ade80\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" data-v-c51aa3ab></path></svg></div><div class=\"complete-title\" data-v-c51aa3ab>Upload complete</div>", 2)),
       ($props.pagesUrl)
         ? (openBlock(), createElementBlock("a", {
             key: 0,
             href: `${$props.pagesUrl.replace(/\/$/, '')}/?v=${$props.timestamp}`,
             target: "_blank",
-            class: "site-card"
+            class: normalizeClass(["site-card", $options.statusClass])
           }, [
             createBaseVNode("div", {
               class: normalizeClass(["site-status", $options.statusClass])
@@ -2089,7 +2089,7 @@ function _sfc_render$a(_ctx, _cache, $props, $setup, $data, $options) {
               createVNode(_component_ph58link, { class: "url-icon" }),
               createBaseVNode("span", _hoisted_6$4, toDisplayString($options.cleanPagesUrl), 1)
             ])
-          ], 8, _hoisted_3$6))
+          ], 10, _hoisted_3$6))
         : createCommentVNode("", true),
       createBaseVNode("button", {
         class: "btn-ghost complete-back",
@@ -2098,7 +2098,7 @@ function _sfc_render$a(_ctx, _cache, $props, $setup, $data, $options) {
     ])
   ]))
 }
-const __unplugin_components_3$1 = /*#__PURE__*/_export_sfc(_sfc_main$a, [['render',_sfc_render$a],['__scopeId',"data-v-1e5824b9"]]);
+const __unplugin_components_3$1 = /*#__PURE__*/_export_sfc(_sfc_main$a, [['render',_sfc_render$a],['__scopeId',"data-v-c51aa3ab"]]);
 
 const _hoisted_1$i = {
   viewBox: "0 0 56 56",
@@ -38304,13 +38304,13 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
 }
 const aleLibraryView = /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]]);
 
-const aleGallery     = () => __vitePreload(() => import('./gallery-root.BsuwiM-N.js'),true?__vite__mapDeps([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]):void 0,import.meta.url);
-const aleCollections = () => __vitePreload(() => import('./gallery-collections.uv5QdGuf.js'),true?__vite__mapDeps([18,1,2,3,10,5,6,11,4,13,14,15,16,19]):void 0,import.meta.url);
-const aleCategories  = () => __vitePreload(() => import('./gallery-categories.Bt0BS-TO.js'),true?__vite__mapDeps([20,2,3,4,8,9,10,5,6,11,13,14,15,16,21]):void 0,import.meta.url);
-const aleSeries      = () => __vitePreload(() => import('./gallery-series.DaU5ryd9.js'),true?__vite__mapDeps([22,1,2,3,7,8,9,10,5,6,11,12,4,13,14,15,16,23]):void 0,import.meta.url);
-const aleAuthors     = () => __vitePreload(() => import('./gallery-authors.juDt-KIY.js'),true?__vite__mapDeps([24,1,2,3,7,8,9,10,5,6,11,12,4,13,14,15,16,25]):void 0,import.meta.url);
-const aleNarrators   = () => __vitePreload(() => import('./gallery-narrators.Bo95WZSR.js'),true?__vite__mapDeps([26,1,2,3,7,8,9,10,5,6,11,12,4,13,14,15,16,27]):void 0,import.meta.url);
-const alePublishers  = () => __vitePreload(() => import('./gallery-publishers.BvARw4e8.js'),true?__vite__mapDeps([28,1,2,3,7,8,9,10,5,6,11,12,4,13,14,15,16,29]):void 0,import.meta.url);
+const aleGallery     = () => __vitePreload(() => import('./gallery-root.kyxAnF7K.js'),true?__vite__mapDeps([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]):void 0,import.meta.url);
+const aleCollections = () => __vitePreload(() => import('./gallery-collections.CMQ8DCFO.js'),true?__vite__mapDeps([18,1,2,3,10,5,6,11,4,13,14,15,16,19]):void 0,import.meta.url);
+const aleCategories  = () => __vitePreload(() => import('./gallery-categories.DtcefoLy.js'),true?__vite__mapDeps([20,2,3,4,8,9,10,5,6,11,13,14,15,16,21]):void 0,import.meta.url);
+const aleSeries      = () => __vitePreload(() => import('./gallery-series.fPPjHmLz.js'),true?__vite__mapDeps([22,1,2,3,7,8,9,10,5,6,11,12,4,13,14,15,16,23]):void 0,import.meta.url);
+const aleAuthors     = () => __vitePreload(() => import('./gallery-authors.CYMWfEZD.js'),true?__vite__mapDeps([24,1,2,3,7,8,9,10,5,6,11,12,4,13,14,15,16,25]):void 0,import.meta.url);
+const aleNarrators   = () => __vitePreload(() => import('./gallery-narrators.BdG6cvTL.js'),true?__vite__mapDeps([26,1,2,3,7,8,9,10,5,6,11,12,4,13,14,15,16,27]):void 0,import.meta.url);
+const alePublishers  = () => __vitePreload(() => import('./gallery-publishers.BgDPX5S6.js'),true?__vite__mapDeps([28,1,2,3,7,8,9,10,5,6,11,12,4,13,14,15,16,29]):void 0,import.meta.url);
 
 const allRoutes = {
   library: { 

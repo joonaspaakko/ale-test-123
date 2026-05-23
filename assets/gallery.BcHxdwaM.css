@@ -3087,7 +3087,7 @@
   display: flex;
   gap: 18px;
   align-items: center;
-}.center-contents[data-v-1e5824b9] {
+}.center-contents[data-v-c51aa3ab] {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -3095,7 +3095,7 @@
   align-content: center;
   justify-content: center;
 }
-.no-selection[data-v-1e5824b9] {
+.no-selection[data-v-c51aa3ab] {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -3118,7 +3118,7 @@
  * animation pulsate-bck
  * ----------------------------------------
  */
-@-webkit-keyframes pulsate-bck-1e5824b9 {
+@-webkit-keyframes pulsate-bck-c51aa3ab {
 0% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -3132,7 +3132,7 @@
     transform: scale(1);
 }
 }
-@keyframes pulsate-bck-1e5824b9 {
+@keyframes pulsate-bck-c51aa3ab {
 0% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -3146,12 +3146,12 @@
     transform: scale(1);
 }
 }
-.complete-screen[data-v-1e5824b9] {
+.complete-screen[data-v-c51aa3ab] {
   display: flex;
   justify-content: center;
   padding: 8px 0;
 }
-.complete-screen .complete-box[data-v-1e5824b9] {
+.complete-screen .complete-box[data-v-c51aa3ab] {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -3161,28 +3161,28 @@
   width: 100%;
   text-align: center;
 }
-.theme-light .complete-screen .complete-box[data-v-1e5824b9] {
+.theme-light .complete-screen .complete-box[data-v-c51aa3ab] {
   background: #f0eded;
   border: 1px solid rgba(33, 35, 37, 0.08);
 }
-.theme-dark .complete-screen .complete-box[data-v-1e5824b9] {
+.theme-dark .complete-screen .complete-box[data-v-c51aa3ab] {
   background: #171717;
   border: 1px solid rgba(249, 248, 248, 0.08);
 }
-.complete-screen .complete-check-icon[data-v-1e5824b9] {
+.complete-screen .complete-check-icon[data-v-c51aa3ab] {
   line-height: 1;
 }
-.complete-screen .complete-title[data-v-1e5824b9] {
+.complete-screen .complete-title[data-v-c51aa3ab] {
   font-size: 1.25em;
   font-weight: 600;
 }
-.theme-light .complete-screen .complete-title[data-v-1e5824b9] {
+.theme-light .complete-screen .complete-title[data-v-c51aa3ab] {
   color: #212325;
 }
-.theme-dark .complete-screen .complete-title[data-v-1e5824b9] {
+.theme-dark .complete-screen .complete-title[data-v-c51aa3ab] {
   color: #f9f8f8;
 }
-.complete-screen .site-card[data-v-1e5824b9] {
+.complete-screen .site-card[data-v-c51aa3ab] {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -3191,21 +3191,25 @@
   overflow: hidden;
   box-sizing: border-box;
 }
-.theme-light .complete-screen .site-card[data-v-1e5824b9] {
+.theme-light .complete-screen .site-card[data-v-c51aa3ab] {
   background: white;
   border: 1px solid rgba(33, 35, 37, 0.1);
 }
-.theme-dark .complete-screen .site-card[data-v-1e5824b9] {
+.theme-dark .complete-screen .site-card[data-v-c51aa3ab] {
   background: #242424;
   border: 1px solid rgba(249, 248, 248, 0.1);
 }
-.theme-light .complete-screen .site-card[data-v-1e5824b9]:hover {
+.theme-light .complete-screen .site-card[data-v-c51aa3ab]:hover {
   border-color: rgba(33, 35, 37, 0.22);
 }
-.theme-dark .complete-screen .site-card[data-v-1e5824b9]:hover {
+.theme-dark .complete-screen .site-card[data-v-c51aa3ab]:hover {
   border-color: rgba(249, 248, 248, 0.22);
 }
-.complete-screen .site-status[data-v-1e5824b9] {
+.complete-screen .site-card[data-v-c51aa3ab]:not(.is-built) {
+  pointer-events: none;
+  cursor: default;
+}
+.complete-screen .site-status[data-v-c51aa3ab] {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3213,44 +3217,52 @@
   padding: 8px 12px;
   font-size: 0.92em;
 }
-.theme-light .complete-screen .site-status[data-v-1e5824b9] {
+.theme-light .complete-screen .site-status[data-v-c51aa3ab] {
   border-bottom: 1px solid rgba(33, 35, 37, 0.08);
 }
-.theme-dark .complete-screen .site-status[data-v-1e5824b9] {
+.theme-dark .complete-screen .site-status[data-v-c51aa3ab] {
   border-bottom: 1px solid rgba(249, 248, 248, 0.08);
 }
-.complete-screen .site-status .status-icon[data-v-1e5824b9] {
+.complete-screen .site-status .status-icon[data-v-c51aa3ab] {
   font-size: 1.15em;
 }
-.complete-screen .site-status.is-building[data-v-1e5824b9] {
+.complete-screen .site-status.is-building[data-v-c51aa3ab] {
   color: #f97316;
 }
-.complete-screen .site-status.is-built[data-v-1e5824b9] {
+.complete-screen .site-status.is-built[data-v-c51aa3ab] {
   color: #4ade80;
 }
-.complete-screen .site-status.is-errored[data-v-1e5824b9] {
+.complete-screen .site-status.is-errored[data-v-c51aa3ab] {
   color: #ef4444;
 }
-.theme-light .complete-screen .site-status.is-pending[data-v-1e5824b9] {
+.theme-light .complete-screen .site-status.is-pending[data-v-c51aa3ab] {
   color: rgba(33, 35, 37, 0.4);
 }
-.theme-dark .complete-screen .site-status.is-pending[data-v-1e5824b9] {
+.theme-dark .complete-screen .site-status.is-pending[data-v-c51aa3ab] {
   color: rgba(249, 248, 248, 0.4);
 }
-.complete-screen .site-url[data-v-1e5824b9] {
+.complete-screen .site-url[data-v-c51aa3ab] {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 6px;
   padding: 10px 12px;
-  color: #4ade80;
   font-size: 0.92em;
 }
-.complete-screen .site-url .url-icon[data-v-1e5824b9] {
+.theme-light .complete-screen .site-url[data-v-c51aa3ab] {
+  color: rgba(33, 35, 37, 0.4);
+}
+.theme-dark .complete-screen .site-url[data-v-c51aa3ab] {
+  color: rgba(249, 248, 248, 0.4);
+}
+.site-card.is-built .complete-screen .site-url[data-v-c51aa3ab] {
+  color: #4ade80;
+}
+.complete-screen .site-url .url-icon[data-v-c51aa3ab] {
   flex-shrink: 0;
   opacity: 0.6;
 }
-.complete-screen .site-url .url-text[data-v-1e5824b9] {
+.complete-screen .site-url .url-text[data-v-c51aa3ab] {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -3258,19 +3270,19 @@
   text-align: left;
   unicode-bidi: plaintext;
 }
-.complete-screen .complete-back[data-v-1e5824b9] {
+.complete-screen .complete-back[data-v-c51aa3ab] {
   margin-top: 2px;
   font-size: 0.92em;
 }
-.complete-screen .building-dot[data-v-1e5824b9] {
+.complete-screen .building-dot[data-v-c51aa3ab] {
   width: 9px;
   height: 9px;
   border-radius: 50%;
   background: #f97316;
   flex-shrink: 0;
-  animation: building-pulse-1e5824b9 1.4s ease-in-out infinite;
+  animation: building-pulse-c51aa3ab 1.4s ease-in-out infinite;
 }
-@keyframes building-pulse-1e5824b9 {
+@keyframes building-pulse-c51aa3ab {
 0% {
     transform: scale(1);
     box-shadow: 0 0 0 0 rgba(249, 115, 22, 0.75);
