@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./gallery-root.DFMHE6Yc.js","./gallery-lazy.BVsJ3eWf.js","./lodash.Cy6RZ5mX.js","./jquery.3Hs3vqLI.js","./gallery-makeCoverUrl.BnX14Pi7.js","./content-script-helpers.BpgvfgYn.js","./tippy.D5BJGoFS.js","./tippy.CccQYZjX.css","./jszip.HPtxegej.js","./gallery-search.BBZOLN9f.js","./gallery-findSubPageSource.CB10VwdW.js","./gallery-findSubPageSource.CiwUdFXD.css","./gallery-page-title.BxFN574s.js","./gallery-page-title.DIkdMpKg.css","./gallery-search.BzpeHrzh.css","./index.9Z32wZYy.js","./howler.B9zQKWVB.js","./gallery-root.BzVeR_YH.css","./gallery-collections.C3MEFiGV.js","./gallery-collections.CfEzgue_.css","./gallery-categories.BmcDqfi0.js","./gallery-categories.TnEyMgJ6.css","./gallery-series.CK5RmrPW.js","./gallery-series.BUI5za12.css","./gallery-authors.tibKnzgw.js","./gallery-authors.B_KccURD.css","./gallery-narrators.8vMVStyg.js","./gallery-narrators.BS7nEc6d.css","./gallery-publishers.DfXDSTae.js","./gallery-publishers.B7FoxqaF.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./gallery-root.CCJ64y-q.js","./gallery-lazy.BVsJ3eWf.js","./lodash.Cy6RZ5mX.js","./jquery.3Hs3vqLI.js","./gallery-makeCoverUrl.BnX14Pi7.js","./content-script-helpers.BpgvfgYn.js","./tippy.D5BJGoFS.js","./tippy.CccQYZjX.css","./jszip.HPtxegej.js","./gallery-search.ambzMaG2.js","./gallery-findSubPageSource.CB10VwdW.js","./gallery-findSubPageSource.CiwUdFXD.css","./gallery-page-title.BxFN574s.js","./gallery-page-title.DIkdMpKg.css","./gallery-search.BzpeHrzh.css","./index.9Z32wZYy.js","./howler.B9zQKWVB.js","./gallery-root.BzVeR_YH.css","./gallery-collections.C8AcqcWW.js","./gallery-collections.CfEzgue_.css","./gallery-categories.DWeW6Hys.js","./gallery-categories.TnEyMgJ6.css","./gallery-series.BYJ_Nbrq.js","./gallery-series.BUI5za12.css","./gallery-authors.DDN1YJQj.js","./gallery-authors.B_KccURD.css","./gallery-narrators.BMrfHaHx.js","./gallery-narrators.BS7nEc6d.css","./gallery-publishers.Bv5S4Pk6.js","./gallery-publishers.B7FoxqaF.css"])))=>i.map(i=>d[i]);
 import { m as makeCoverUrl } from './gallery-makeCoverUrl.BnX14Pi7.js';
 import { m as markRaw, o as openBlock, c as createElementBlock, a as createBaseVNode, _ as _export_sfc, w as withDirectives, v as vShow, n as normalizeStyle, b as createVNode, t as toDisplayString, d as createCommentVNode, r as resolveDirective, e as resolveComponent, f as withModifiers, g as normalizeClass, h as createBlock, F as Fragment, i as renderList, j as withCtx, k as normalizeProps, l as resolveDynamicComponent, p as renderSlot, q as createStaticVNode, s as createTextVNode, u as withKeys, x as vModelText, y as vModelCheckbox, z as vModelRadio, A as _$1, B as unref, C as shallowReactive, D as shallowRef, E as defineComponent, G as inject, H as h, I as reactive, J as computed, K as watch, L as ref, M as nextTick, N as provide, O as createApp } from './lodash.Cy6RZ5mX.js';
 import { c as commonjsGlobal, g as getDefaultExportFromCjs } from './jquery.3Hs3vqLI.js';
@@ -1426,40 +1426,41 @@ const _hoisted_2$d = {
   class: "status-msg"
 };
 const _hoisted_3$a = {
+  key: 0,
+  class: "progress-percent"
+};
+const _hoisted_4$a = {
   key: 1,
   class: "progress-wrap"
 };
-const _hoisted_4$a = { class: "progress-bar" };
-const _hoisted_5$8 = { class: "progress-text" };
-const _hoisted_6$7 = { key: 0 };
-const _hoisted_7$6 = {
+const _hoisted_5$8 = { class: "progress-bar" };
+const _hoisted_6$7 = {
   key: 2,
   class: "stage-indicator"
 };
 
 function _sfc_render$e(_ctx, _cache, $props, $setup, $data, $options) {
   return (openBlock(), createElementBlock("div", _hoisted_1$w, [
-    ($props.statusMessage)
-      ? (openBlock(), createElementBlock("div", _hoisted_2$d, toDisplayString($props.statusMessage), 1))
+    ($props.statusMessage || $props.progress.total > 0)
+      ? (openBlock(), createElementBlock("div", _hoisted_2$d, [
+          createBaseVNode("span", null, toDisplayString($props.statusMessage), 1),
+          ($props.progress.total > 0)
+            ? (openBlock(), createElementBlock("span", _hoisted_3$a, toDisplayString($props.progress.percent) + "%", 1))
+            : createCommentVNode("", true)
+        ]))
       : createCommentVNode("", true),
     ($props.progress.total > 0)
-      ? (openBlock(), createElementBlock("div", _hoisted_3$a, [
-          createBaseVNode("div", _hoisted_4$a, [
+      ? (openBlock(), createElementBlock("div", _hoisted_4$a, [
+          createBaseVNode("div", _hoisted_5$8, [
             createBaseVNode("div", {
               class: "progress-fill",
               style: normalizeStyle({ width: $props.progress.percent + '%' })
             }, null, 4)
-          ]),
-          createBaseVNode("div", _hoisted_5$8, [
-            createTextVNode(toDisplayString($props.progress.percent) + "% ", 1),
-            ($props.progress.total > 0)
-              ? (openBlock(), createElementBlock("span", _hoisted_6$7, "(" + toDisplayString($props.progress.done) + "/" + toDisplayString($props.progress.total) + " files)", 1))
-              : createCommentVNode("", true)
           ])
         ]))
       : createCommentVNode("", true),
     ($props.isSyncing || $props.progress.stage)
-      ? (openBlock(), createElementBlock("div", _hoisted_7$6, [
+      ? (openBlock(), createElementBlock("div", _hoisted_6$7, [
           (openBlock(true), createElementBlock(Fragment, null, renderList($props.stages, (s) => {
             return (openBlock(), createElementBlock("div", {
               key: s,
@@ -1470,7 +1471,7 @@ function _sfc_render$e(_ctx, _cache, $props, $setup, $data, $options) {
       : createCommentVNode("", true)
   ]))
 }
-const __unplugin_components_7 = /*#__PURE__*/_export_sfc(_sfc_main$e, [['render',_sfc_render$e],['__scopeId',"data-v-e631b03d"]]);
+const __unplugin_components_7 = /*#__PURE__*/_export_sfc(_sfc_main$e, [['render',_sfc_render$e],['__scopeId',"data-v-b62f6d98"]]);
 
 const _hoisted_1$v = {
   viewBox: "0 0 24 24",
@@ -39086,13 +39087,13 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
 }
 const aleLibraryView = /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]]);
 
-const aleGallery     = () => __vitePreload(() => import('./gallery-root.DFMHE6Yc.js'),true?__vite__mapDeps([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]):void 0,import.meta.url);
-const aleCollections = () => __vitePreload(() => import('./gallery-collections.C3MEFiGV.js'),true?__vite__mapDeps([18,1,2,3,12,5,6,7,8,13,4,15,16,19]):void 0,import.meta.url);
-const aleCategories  = () => __vitePreload(() => import('./gallery-categories.BmcDqfi0.js'),true?__vite__mapDeps([20,2,3,4,10,11,12,5,6,7,8,13,15,16,21]):void 0,import.meta.url);
-const aleSeries      = () => __vitePreload(() => import('./gallery-series.CK5RmrPW.js'),true?__vite__mapDeps([22,1,2,3,9,10,11,12,5,6,7,8,13,14,4,15,16,23]):void 0,import.meta.url);
-const aleAuthors     = () => __vitePreload(() => import('./gallery-authors.tibKnzgw.js'),true?__vite__mapDeps([24,1,2,3,9,10,11,12,5,6,7,8,13,14,4,15,16,25]):void 0,import.meta.url);
-const aleNarrators   = () => __vitePreload(() => import('./gallery-narrators.8vMVStyg.js'),true?__vite__mapDeps([26,1,2,3,9,10,11,12,5,6,7,8,13,14,4,15,16,27]):void 0,import.meta.url);
-const alePublishers  = () => __vitePreload(() => import('./gallery-publishers.DfXDSTae.js'),true?__vite__mapDeps([28,1,2,3,9,10,11,12,5,6,7,8,13,14,4,15,16,29]):void 0,import.meta.url);
+const aleGallery     = () => __vitePreload(() => import('./gallery-root.CCJ64y-q.js'),true?__vite__mapDeps([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]):void 0,import.meta.url);
+const aleCollections = () => __vitePreload(() => import('./gallery-collections.C8AcqcWW.js'),true?__vite__mapDeps([18,1,2,3,12,5,6,7,8,13,4,15,16,19]):void 0,import.meta.url);
+const aleCategories  = () => __vitePreload(() => import('./gallery-categories.DWeW6Hys.js'),true?__vite__mapDeps([20,2,3,4,10,11,12,5,6,7,8,13,15,16,21]):void 0,import.meta.url);
+const aleSeries      = () => __vitePreload(() => import('./gallery-series.BYJ_Nbrq.js'),true?__vite__mapDeps([22,1,2,3,9,10,11,12,5,6,7,8,13,14,4,15,16,23]):void 0,import.meta.url);
+const aleAuthors     = () => __vitePreload(() => import('./gallery-authors.DDN1YJQj.js'),true?__vite__mapDeps([24,1,2,3,9,10,11,12,5,6,7,8,13,14,4,15,16,25]):void 0,import.meta.url);
+const aleNarrators   = () => __vitePreload(() => import('./gallery-narrators.BMrfHaHx.js'),true?__vite__mapDeps([26,1,2,3,9,10,11,12,5,6,7,8,13,14,4,15,16,27]):void 0,import.meta.url);
+const alePublishers  = () => __vitePreload(() => import('./gallery-publishers.Bv5S4Pk6.js'),true?__vite__mapDeps([28,1,2,3,9,10,11,12,5,6,7,8,13,14,4,15,16,29]):void 0,import.meta.url);
 
 const allRoutes = {
   library: { 

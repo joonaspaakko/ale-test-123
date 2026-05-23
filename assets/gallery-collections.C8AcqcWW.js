@@ -1,6 +1,6 @@
 import { _ as __unplugin_components_1 } from './gallery-lazy.BVsJ3eWf.js';
 import { _ as __unplugin_components_0 } from './gallery-page-title.BxFN574s.js';
-import { c as slugify } from './gallery.BSL9PIJ5.js';
+import { c as slugify } from './gallery.C43sWD8s.js';
 import { m as makeCoverUrl } from './gallery-makeCoverUrl.BnX14Pi7.js';
 import { _ as _export_sfc, o as openBlock, c as createElementBlock, b as createVNode, a as createBaseVNode, t as toDisplayString, F as Fragment, i as renderList, d as createCommentVNode, e as resolveComponent, r as resolveDirective, g as normalizeClass, h as createBlock, j as withCtx, w as withDirectives } from './lodash.Cy6RZ5mX.js';
 import './content-script-helpers.BpgvfgYn.js';
