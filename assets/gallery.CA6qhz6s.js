@@ -1,12 +1,12 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./gallery-root.DyXs9FKH.js","./gallery-lazy.BVsJ3eWf.js","./lodash.Cy6RZ5mX.js","./jquery.3Hs3vqLI.js","./gallery-makeCoverUrl.BnX14Pi7.js","./content-script-helpers.DXlHHC_k.js","./tippy.D5BJGoFS.js","./tippy.CccQYZjX.css","./jszip.BBGmtqMN.js","./gallery-search.BnijP5Sz.js","./gallery-findSubPageSource.CB10VwdW.js","./gallery-findSubPageSource.CiwUdFXD.css","./gallery-page-title.7dRzomza.js","./gallery-page-title.DIkdMpKg.css","./gallery-search.BzpeHrzh.css","./index.9Z32wZYy.js","./howler.B9zQKWVB.js","./gallery-root.BzVeR_YH.css","./gallery-collections.DLq-vXfX.js","./gallery-collections.CfEzgue_.css","./gallery-categories.BzXmkXiq.js","./gallery-categories.TnEyMgJ6.css","./gallery-series.CTi-ZAi6.js","./gallery-series.BUI5za12.css","./gallery-authors.BvjRPrgp.js","./gallery-authors.B_KccURD.css","./gallery-narrators.DMdnHQpU.js","./gallery-narrators.BS7nEc6d.css","./gallery-publishers.Brpv6Rzq.js","./gallery-publishers.B7FoxqaF.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./gallery-root.CeHGg7lL.js","./gallery-lazy.BVsJ3eWf.js","./lodash.Cy6RZ5mX.js","./jquery.3Hs3vqLI.js","./gallery-makeCoverUrl.BnX14Pi7.js","./content-script-helpers.BpgvfgYn.js","./tippy.D5BJGoFS.js","./tippy.CccQYZjX.css","./jszip.HPtxegej.js","./gallery-search.D5Bx3A3Z.js","./gallery-findSubPageSource.CB10VwdW.js","./gallery-findSubPageSource.CiwUdFXD.css","./gallery-page-title.BxFN574s.js","./gallery-page-title.DIkdMpKg.css","./gallery-search.BzpeHrzh.css","./index.9Z32wZYy.js","./howler.B9zQKWVB.js","./gallery-root.BzVeR_YH.css","./gallery-collections.Bcv-9w3j.js","./gallery-collections.CfEzgue_.css","./gallery-categories.DO-MyQzs.js","./gallery-categories.TnEyMgJ6.css","./gallery-series.rYuFNac5.js","./gallery-series.BUI5za12.css","./gallery-authors.Bg4uO05J.js","./gallery-authors.B_KccURD.css","./gallery-narrators.D8mqdskV.js","./gallery-narrators.BS7nEc6d.css","./gallery-publishers.DFfdF16q.js","./gallery-publishers.B7FoxqaF.css"])))=>i.map(i=>d[i]);
 import { m as makeCoverUrl } from './gallery-makeCoverUrl.BnX14Pi7.js';
 import { m as markRaw, o as openBlock, c as createElementBlock, a as createBaseVNode, _ as _export_sfc, w as withDirectives, v as vShow, n as normalizeStyle, b as createVNode, t as toDisplayString, d as createCommentVNode, r as resolveDirective, e as resolveComponent, f as withModifiers, g as normalizeClass, h as createBlock, F as Fragment, i as renderList, j as withCtx, k as normalizeProps, l as resolveDynamicComponent, p as renderSlot, q as createStaticVNode, s as createTextVNode, u as withKeys, x as vModelText, y as vModelCheckbox, z as vModelRadio, A as _$1, B as unref, C as shallowReactive, D as shallowRef, E as defineComponent, G as inject, H as h, I as reactive, J as computed, K as watch, L as ref, M as nextTick, N as provide, O as createApp } from './lodash.Cy6RZ5mX.js';
 import { c as commonjsGlobal, g as getDefaultExportFromCjs } from './jquery.3Hs3vqLI.js';
 import { r as require$$0, s as shortkey } from './index.9Z32wZYy.js';
-import { t as toDate, c as constructFrom, n as normalizeDates, s as startOfDay, d as differenceInCalendarDays, m as millisecondsInHour, a as millisecondsInMinute, g as getTimezoneOffsetInMilliseconds, b as minutesInDay, e as minutesInMonth, f as getDefaultOptions, h as format, F as Fuse, i as axios, U as Url, j as secondsToTimeString, k as timeStringToSeconds, l as helpers } from './content-script-helpers.DXlHHC_k.js';
+import { t as toDate, c as constructFrom, n as normalizeDates, s as startOfDay, d as differenceInCalendarDays, m as millisecondsInHour, a as millisecondsInMinute, g as getTimezoneOffsetInMilliseconds, b as minutesInDay, e as minutesInMonth, f as getDefaultOptions, h as format, F as Fuse, i as axios, U as Url, j as secondsToTimeString, k as timeStringToSeconds, l as helpers } from './content-script-helpers.BpgvfgYn.js';
 import { e as enUS, c as createStore, m as mitt, p as plugin } from './tippy.D5BJGoFS.js';
 import { h as howler } from './howler.B9zQKWVB.js';
-import './jszip.BBGmtqMN.js';
+import './jszip.HPtxegej.js';
 
 const _hoisted_1$12 = {
   viewBox: "0 0 24 24",
@@ -3309,7 +3309,7 @@ function _sfc_render$d(_ctx, _cache, $props, $setup, $data, $options) {
     ($props.repoInfo.pagesUrl)
       ? (openBlock(), createElementBlock("a", {
           key: 0,
-          href: $props.repoInfo.pagesUrl,
+          href: `${$props.repoInfo.pagesUrl.replace(/\/$/, '')}/#/library?tt=${new Date($props.repoInfo.pushedAt).getTime()}`,
           target: "_blank",
           class: "pages-url-prominent"
         }, [
@@ -3404,7 +3404,7 @@ function _sfc_render$d(_ctx, _cache, $props, $setup, $data, $options) {
     ])
   ]))
 }
-const __unplugin_components_6 = /*#__PURE__*/_export_sfc(_sfc_main$d, [['render',_sfc_render$d],['__scopeId',"data-v-10174e3d"]]);
+const __unplugin_components_6 = /*#__PURE__*/_export_sfc(_sfc_main$d, [['render',_sfc_render$d],['__scopeId',"data-v-0811cf7d"]]);
 
 const _hoisted_1$p = {
   viewBox: "0 0 24 24",
@@ -3762,11 +3762,11 @@ function _sfc_render$a(_ctx, _cache, $props, $setup, $data, $options) {
 
   return (openBlock(), createElementBlock("div", _hoisted_1$j, [
     createBaseVNode("div", _hoisted_2$9, [
-      _cache[1] || (_cache[1] = createStaticVNode("<div class=\"complete-check-icon\" data-v-c51aa3ab><svg viewBox=\"0 0 24 24\" fill=\"none\" width=\"40\" height=\"40\" data-v-c51aa3ab><circle cx=\"12\" cy=\"12\" r=\"11\" stroke=\"#4ade80\" stroke-width=\"1.5\" data-v-c51aa3ab></circle><path d=\"M7 12.5l3.5 3.5 6.5-7\" stroke=\"#4ade80\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" data-v-c51aa3ab></path></svg></div><div class=\"complete-title\" data-v-c51aa3ab>Upload complete</div>", 2)),
+      _cache[1] || (_cache[1] = createStaticVNode("<div class=\"complete-check-icon\" data-v-ba80ed7b><svg viewBox=\"0 0 24 24\" fill=\"none\" width=\"40\" height=\"40\" data-v-ba80ed7b><circle cx=\"12\" cy=\"12\" r=\"11\" stroke=\"#4ade80\" stroke-width=\"1.5\" data-v-ba80ed7b></circle><path d=\"M7 12.5l3.5 3.5 6.5-7\" stroke=\"#4ade80\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" data-v-ba80ed7b></path></svg></div><div class=\"complete-title\" data-v-ba80ed7b>Upload complete</div>", 2)),
       ($props.pagesUrl)
         ? (openBlock(), createElementBlock("a", {
             key: 0,
-            href: `${$props.pagesUrl.replace(/\/$/, '')}/?v=${$props.timestamp}`,
+            href: `${$props.pagesUrl.replace(/\/$/, '')}/#/library?tt=${$props.timestamp}`,
             target: "_blank",
             class: normalizeClass(["site-card", $options.statusClass])
           }, [
@@ -3801,7 +3801,7 @@ function _sfc_render$a(_ctx, _cache, $props, $setup, $data, $options) {
     ])
   ]))
 }
-const __unplugin_components_3$1 = /*#__PURE__*/_export_sfc(_sfc_main$a, [['render',_sfc_render$a],['__scopeId',"data-v-c51aa3ab"]]);
+const __unplugin_components_3$1 = /*#__PURE__*/_export_sfc(_sfc_main$a, [['render',_sfc_render$a],['__scopeId',"data-v-ba80ed7b"]]);
 
 const _hoisted_1$i = {
   viewBox: "0 0 56 56",
@@ -39080,13 +39080,13 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
 }
 const aleLibraryView = /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]]);
 
-const aleGallery     = () => __vitePreload(() => import('./gallery-root.DyXs9FKH.js'),true?__vite__mapDeps([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]):void 0,import.meta.url);
-const aleCollections = () => __vitePreload(() => import('./gallery-collections.DLq-vXfX.js'),true?__vite__mapDeps([18,1,2,3,12,5,6,7,8,13,4,15,16,19]):void 0,import.meta.url);
-const aleCategories  = () => __vitePreload(() => import('./gallery-categories.BzXmkXiq.js'),true?__vite__mapDeps([20,2,3,4,10,11,12,5,6,7,8,13,15,16,21]):void 0,import.meta.url);
-const aleSeries      = () => __vitePreload(() => import('./gallery-series.CTi-ZAi6.js'),true?__vite__mapDeps([22,1,2,3,9,10,11,12,5,6,7,8,13,14,4,15,16,23]):void 0,import.meta.url);
-const aleAuthors     = () => __vitePreload(() => import('./gallery-authors.BvjRPrgp.js'),true?__vite__mapDeps([24,1,2,3,9,10,11,12,5,6,7,8,13,14,4,15,16,25]):void 0,import.meta.url);
-const aleNarrators   = () => __vitePreload(() => import('./gallery-narrators.DMdnHQpU.js'),true?__vite__mapDeps([26,1,2,3,9,10,11,12,5,6,7,8,13,14,4,15,16,27]):void 0,import.meta.url);
-const alePublishers  = () => __vitePreload(() => import('./gallery-publishers.Brpv6Rzq.js'),true?__vite__mapDeps([28,1,2,3,9,10,11,12,5,6,7,8,13,14,4,15,16,29]):void 0,import.meta.url);
+const aleGallery     = () => __vitePreload(() => import('./gallery-root.CeHGg7lL.js'),true?__vite__mapDeps([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]):void 0,import.meta.url);
+const aleCollections = () => __vitePreload(() => import('./gallery-collections.Bcv-9w3j.js'),true?__vite__mapDeps([18,1,2,3,12,5,6,7,8,13,4,15,16,19]):void 0,import.meta.url);
+const aleCategories  = () => __vitePreload(() => import('./gallery-categories.DO-MyQzs.js'),true?__vite__mapDeps([20,2,3,4,10,11,12,5,6,7,8,13,15,16,21]):void 0,import.meta.url);
+const aleSeries      = () => __vitePreload(() => import('./gallery-series.rYuFNac5.js'),true?__vite__mapDeps([22,1,2,3,9,10,11,12,5,6,7,8,13,14,4,15,16,23]):void 0,import.meta.url);
+const aleAuthors     = () => __vitePreload(() => import('./gallery-authors.Bg4uO05J.js'),true?__vite__mapDeps([24,1,2,3,9,10,11,12,5,6,7,8,13,14,4,15,16,25]):void 0,import.meta.url);
+const aleNarrators   = () => __vitePreload(() => import('./gallery-narrators.D8mqdskV.js'),true?__vite__mapDeps([26,1,2,3,9,10,11,12,5,6,7,8,13,14,4,15,16,27]):void 0,import.meta.url);
+const alePublishers  = () => __vitePreload(() => import('./gallery-publishers.DFfdF16q.js'),true?__vite__mapDeps([28,1,2,3,9,10,11,12,5,6,7,8,13,14,4,15,16,29]):void 0,import.meta.url);
 
 const allRoutes = {
   library: { 
