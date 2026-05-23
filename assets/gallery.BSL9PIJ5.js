@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./gallery-root.CeHGg7lL.js","./gallery-lazy.BVsJ3eWf.js","./lodash.Cy6RZ5mX.js","./jquery.3Hs3vqLI.js","./gallery-makeCoverUrl.BnX14Pi7.js","./content-script-helpers.BpgvfgYn.js","./tippy.D5BJGoFS.js","./tippy.CccQYZjX.css","./jszip.HPtxegej.js","./gallery-search.D5Bx3A3Z.js","./gallery-findSubPageSource.CB10VwdW.js","./gallery-findSubPageSource.CiwUdFXD.css","./gallery-page-title.BxFN574s.js","./gallery-page-title.DIkdMpKg.css","./gallery-search.BzpeHrzh.css","./index.9Z32wZYy.js","./howler.B9zQKWVB.js","./gallery-root.BzVeR_YH.css","./gallery-collections.Bcv-9w3j.js","./gallery-collections.CfEzgue_.css","./gallery-categories.DO-MyQzs.js","./gallery-categories.TnEyMgJ6.css","./gallery-series.rYuFNac5.js","./gallery-series.BUI5za12.css","./gallery-authors.Bg4uO05J.js","./gallery-authors.B_KccURD.css","./gallery-narrators.D8mqdskV.js","./gallery-narrators.BS7nEc6d.css","./gallery-publishers.DFfdF16q.js","./gallery-publishers.B7FoxqaF.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./gallery-root.DFMHE6Yc.js","./gallery-lazy.BVsJ3eWf.js","./lodash.Cy6RZ5mX.js","./jquery.3Hs3vqLI.js","./gallery-makeCoverUrl.BnX14Pi7.js","./content-script-helpers.BpgvfgYn.js","./tippy.D5BJGoFS.js","./tippy.CccQYZjX.css","./jszip.HPtxegej.js","./gallery-search.BBZOLN9f.js","./gallery-findSubPageSource.CB10VwdW.js","./gallery-findSubPageSource.CiwUdFXD.css","./gallery-page-title.BxFN574s.js","./gallery-page-title.DIkdMpKg.css","./gallery-search.BzpeHrzh.css","./index.9Z32wZYy.js","./howler.B9zQKWVB.js","./gallery-root.BzVeR_YH.css","./gallery-collections.C3MEFiGV.js","./gallery-collections.CfEzgue_.css","./gallery-categories.BmcDqfi0.js","./gallery-categories.TnEyMgJ6.css","./gallery-series.CK5RmrPW.js","./gallery-series.BUI5za12.css","./gallery-authors.tibKnzgw.js","./gallery-authors.B_KccURD.css","./gallery-narrators.8vMVStyg.js","./gallery-narrators.BS7nEc6d.css","./gallery-publishers.DfXDSTae.js","./gallery-publishers.B7FoxqaF.css"])))=>i.map(i=>d[i]);
 import { m as makeCoverUrl } from './gallery-makeCoverUrl.BnX14Pi7.js';
 import { m as markRaw, o as openBlock, c as createElementBlock, a as createBaseVNode, _ as _export_sfc, w as withDirectives, v as vShow, n as normalizeStyle, b as createVNode, t as toDisplayString, d as createCommentVNode, r as resolveDirective, e as resolveComponent, f as withModifiers, g as normalizeClass, h as createBlock, F as Fragment, i as renderList, j as withCtx, k as normalizeProps, l as resolveDynamicComponent, p as renderSlot, q as createStaticVNode, s as createTextVNode, u as withKeys, x as vModelText, y as vModelCheckbox, z as vModelRadio, A as _$1, B as unref, C as shallowReactive, D as shallowRef, E as defineComponent, G as inject, H as h, I as reactive, J as computed, K as watch, L as ref, M as nextTick, N as provide, O as createApp } from './lodash.Cy6RZ5mX.js';
 import { c as commonjsGlobal, g as getDefaultExportFromCjs } from './jquery.3Hs3vqLI.js';
@@ -3268,9 +3268,10 @@ const _sfc_main$d = {
   mixins: [ githubUtilsMixin ],
 
   props: {
-    repoInfo: { type: Object, required: true },
-    login: { type: String, required: true },
+    repoInfo : { type: Object, required: true },
+    login    : { type: String, required: true },
     aleTopics: { type: Array, default: () => [] },
+    hashRoute: { type: String, default: 'library' },
   },
 
   emits: ['tag-add', 'tag-remove'],
@@ -3309,7 +3310,7 @@ function _sfc_render$d(_ctx, _cache, $props, $setup, $data, $options) {
     ($props.repoInfo.pagesUrl)
       ? (openBlock(), createElementBlock("a", {
           key: 0,
-          href: `${$props.repoInfo.pagesUrl.replace(/\/$/, '')}/#/library?tt=${new Date($props.repoInfo.pushedAt).getTime()}`,
+          href: `${$props.repoInfo.pagesUrl.replace(/\/$/, '')}/#/${$props.hashRoute}?tt=${new Date($props.repoInfo.pushedAt).getTime()}`,
           target: "_blank",
           class: "pages-url-prominent"
         }, [
@@ -3404,7 +3405,7 @@ function _sfc_render$d(_ctx, _cache, $props, $setup, $data, $options) {
     ])
   ]))
 }
-const __unplugin_components_6 = /*#__PURE__*/_export_sfc(_sfc_main$d, [['render',_sfc_render$d],['__scopeId',"data-v-0811cf7d"]]);
+const __unplugin_components_6 = /*#__PURE__*/_export_sfc(_sfc_main$d, [['render',_sfc_render$d],['__scopeId',"data-v-ded39d2c"]]);
 
 const _hoisted_1$p = {
   viewBox: "0 0 24 24",
@@ -3717,6 +3718,7 @@ const _sfc_main$a = {
     pagesUrl   : { type: String, default: null },
     pagesStatus: { type: String, default: null },
     timestamp  : { type: Number, default: null },
+    hashRoute  : { type: String, default: 'library' },
   },
   emits: ['back'],
   computed: {
@@ -3762,11 +3764,11 @@ function _sfc_render$a(_ctx, _cache, $props, $setup, $data, $options) {
 
   return (openBlock(), createElementBlock("div", _hoisted_1$j, [
     createBaseVNode("div", _hoisted_2$9, [
-      _cache[1] || (_cache[1] = createStaticVNode("<div class=\"complete-check-icon\" data-v-ba80ed7b><svg viewBox=\"0 0 24 24\" fill=\"none\" width=\"40\" height=\"40\" data-v-ba80ed7b><circle cx=\"12\" cy=\"12\" r=\"11\" stroke=\"#4ade80\" stroke-width=\"1.5\" data-v-ba80ed7b></circle><path d=\"M7 12.5l3.5 3.5 6.5-7\" stroke=\"#4ade80\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" data-v-ba80ed7b></path></svg></div><div class=\"complete-title\" data-v-ba80ed7b>Upload complete</div>", 2)),
+      _cache[1] || (_cache[1] = createStaticVNode("<div class=\"complete-check-icon\" data-v-07cd19b6><svg viewBox=\"0 0 24 24\" fill=\"none\" width=\"40\" height=\"40\" data-v-07cd19b6><circle cx=\"12\" cy=\"12\" r=\"11\" stroke=\"#4ade80\" stroke-width=\"1.5\" data-v-07cd19b6></circle><path d=\"M7 12.5l3.5 3.5 6.5-7\" stroke=\"#4ade80\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" data-v-07cd19b6></path></svg></div><div class=\"complete-title\" data-v-07cd19b6>Upload complete</div>", 2)),
       ($props.pagesUrl)
         ? (openBlock(), createElementBlock("a", {
             key: 0,
-            href: `${$props.pagesUrl.replace(/\/$/, '')}/#/library?tt=${$props.timestamp}`,
+            href: `${$props.pagesUrl.replace(/\/$/, '')}/#/${$props.hashRoute}?tt=${$props.timestamp}`,
             target: "_blank",
             class: normalizeClass(["site-card", $options.statusClass])
           }, [
@@ -3801,7 +3803,7 @@ function _sfc_render$a(_ctx, _cache, $props, $setup, $data, $options) {
     ])
   ]))
 }
-const __unplugin_components_3$1 = /*#__PURE__*/_export_sfc(_sfc_main$a, [['render',_sfc_render$a],['__scopeId',"data-v-ba80ed7b"]]);
+const __unplugin_components_3$1 = /*#__PURE__*/_export_sfc(_sfc_main$a, [['render',_sfc_render$a],['__scopeId',"data-v-07cd19b6"]]);
 
 const _hoisted_1$i = {
   viewBox: "0 0 56 56",
@@ -32055,6 +32057,7 @@ const githubUploadMixin = {
       uploadFailed: false,
       failedMessage: '',
       completedPagesUrl: null,
+      completedHashRoute: 'library',
       uploadTimestamp: null,
       includeReadme: true,
       stages: ['Uploading files', 'Organizing files', 'Saving changes', 'Done'],
@@ -32151,7 +32154,8 @@ const githubUploadMixin = {
       try {
         const owner = this.profile.login;
         const repo  = this.selectedRepo;
-        const files = await this.getFiles( { array: true } );
+        const { files, hasBooks } = await this.getFiles( { array: true } );
+        this.completedHashRoute = hasBooks ? 'library' : 'wishlist';
 
         if ( this.includeReadme ) {
           files.push({
@@ -32697,8 +32701,9 @@ function _sfc_render$6(_ctx, _cache, $props, $setup, $data, $options) {
                 "pages-url": _ctx.completedPagesUrl,
                 "pages-status": $options.selectedRepoInfo?.pagesStatus,
                 timestamp: _ctx.uploadTimestamp,
+                "hash-route": _ctx.completedHashRoute,
                 onBack: _ctx.onCompleteBack
-              }, null, 8, ["pages-url", "pages-status", "timestamp", "onBack"]))
+              }, null, 8, ["pages-url", "pages-status", "timestamp", "hash-route", "onBack"]))
             : (_ctx.uploadFailed)
               ? (openBlock(), createBlock(_component_github_failed_screen, {
                   key: 1,
@@ -32758,9 +32763,10 @@ function _sfc_render$6(_ctx, _cache, $props, $setup, $data, $options) {
                               "repo-info": $options.selectedRepoInfo,
                               login: _ctx.profile.login,
                               aleTopics: _ctx.aleTopics,
+                              "hash-route": _ctx.completedHashRoute,
                               onTagAdd: _cache[5] || (_cache[5] = $event => (_ctx.tagRepoWithAle($event, { action: 'add' }))),
                               onTagRemove: _cache[6] || (_cache[6] = $event => (_ctx.tagRepoWithAle($event, { action: 'remove' })))
-                            }, null, 8, ["repo-info", "login", "aleTopics"]))
+                            }, null, 8, ["repo-info", "login", "aleTopics", "hash-route"]))
                           : createCommentVNode("", true)
                       ]))
                     : createCommentVNode("", true),
@@ -32906,7 +32912,7 @@ function _sfc_render$6(_ctx, _cache, $props, $setup, $data, $options) {
         ]))
   ]))
 }
-const __unplugin_components_2 = /*#__PURE__*/_export_sfc(_sfc_main$6, [['render',_sfc_render$6],['__scopeId',"data-v-fc85e15b"]]);
+const __unplugin_components_2 = /*#__PURE__*/_export_sfc(_sfc_main$6, [['render',_sfc_render$6],['__scopeId',"data-v-c0795939"]]);
 
 const _hoisted_1$a = {
   viewBox: "0 0 512 512",
@@ -34282,7 +34288,7 @@ const _sfc_main$5 = {
 
         }
         else {
-          return files.get();
+          return { files: files.get(), hasBooks: tempData.books };
         }
         
         
@@ -34732,7 +34738,7 @@ function _sfc_render$5(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   }))
 }
-const saveGallery = /*#__PURE__*/_export_sfc(_sfc_main$5, [['render',_sfc_render$5],['__scopeId',"data-v-ce668eee"]]);
+const saveGallery = /*#__PURE__*/_export_sfc(_sfc_main$5, [['render',_sfc_render$5],['__scopeId',"data-v-a16dc444"]]);
 
 const _hoisted_1$8 = {
   viewBox: "0 0 576 512",
@@ -39080,13 +39086,13 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
 }
 const aleLibraryView = /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]]);
 
-const aleGallery     = () => __vitePreload(() => import('./gallery-root.CeHGg7lL.js'),true?__vite__mapDeps([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]):void 0,import.meta.url);
-const aleCollections = () => __vitePreload(() => import('./gallery-collections.Bcv-9w3j.js'),true?__vite__mapDeps([18,1,2,3,12,5,6,7,8,13,4,15,16,19]):void 0,import.meta.url);
-const aleCategories  = () => __vitePreload(() => import('./gallery-categories.DO-MyQzs.js'),true?__vite__mapDeps([20,2,3,4,10,11,12,5,6,7,8,13,15,16,21]):void 0,import.meta.url);
-const aleSeries      = () => __vitePreload(() => import('./gallery-series.rYuFNac5.js'),true?__vite__mapDeps([22,1,2,3,9,10,11,12,5,6,7,8,13,14,4,15,16,23]):void 0,import.meta.url);
-const aleAuthors     = () => __vitePreload(() => import('./gallery-authors.Bg4uO05J.js'),true?__vite__mapDeps([24,1,2,3,9,10,11,12,5,6,7,8,13,14,4,15,16,25]):void 0,import.meta.url);
-const aleNarrators   = () => __vitePreload(() => import('./gallery-narrators.D8mqdskV.js'),true?__vite__mapDeps([26,1,2,3,9,10,11,12,5,6,7,8,13,14,4,15,16,27]):void 0,import.meta.url);
-const alePublishers  = () => __vitePreload(() => import('./gallery-publishers.DFfdF16q.js'),true?__vite__mapDeps([28,1,2,3,9,10,11,12,5,6,7,8,13,14,4,15,16,29]):void 0,import.meta.url);
+const aleGallery     = () => __vitePreload(() => import('./gallery-root.DFMHE6Yc.js'),true?__vite__mapDeps([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]):void 0,import.meta.url);
+const aleCollections = () => __vitePreload(() => import('./gallery-collections.C3MEFiGV.js'),true?__vite__mapDeps([18,1,2,3,12,5,6,7,8,13,4,15,16,19]):void 0,import.meta.url);
+const aleCategories  = () => __vitePreload(() => import('./gallery-categories.BmcDqfi0.js'),true?__vite__mapDeps([20,2,3,4,10,11,12,5,6,7,8,13,15,16,21]):void 0,import.meta.url);
+const aleSeries      = () => __vitePreload(() => import('./gallery-series.CK5RmrPW.js'),true?__vite__mapDeps([22,1,2,3,9,10,11,12,5,6,7,8,13,14,4,15,16,23]):void 0,import.meta.url);
+const aleAuthors     = () => __vitePreload(() => import('./gallery-authors.tibKnzgw.js'),true?__vite__mapDeps([24,1,2,3,9,10,11,12,5,6,7,8,13,14,4,15,16,25]):void 0,import.meta.url);
+const aleNarrators   = () => __vitePreload(() => import('./gallery-narrators.8vMVStyg.js'),true?__vite__mapDeps([26,1,2,3,9,10,11,12,5,6,7,8,13,14,4,15,16,27]):void 0,import.meta.url);
+const alePublishers  = () => __vitePreload(() => import('./gallery-publishers.DfXDSTae.js'),true?__vite__mapDeps([28,1,2,3,9,10,11,12,5,6,7,8,13,14,4,15,16,29]):void 0,import.meta.url);
 
 const allRoutes = {
   library: { 

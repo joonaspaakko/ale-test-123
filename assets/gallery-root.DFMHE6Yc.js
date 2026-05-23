@@ -1,9 +1,9 @@
 import { _ as __unplugin_components_1$9 } from './gallery-lazy.BVsJ3eWf.js';
 import { m as makeCoverUrl } from './gallery-makeCoverUrl.BnX14Pi7.js';
 import { _ as _export_sfc$1, e as resolveComponent, r as resolveDirective, o as openBlock, c as createElementBlock, b as createVNode, j as withCtx, h as createBlock, l as resolveDynamicComponent, a as createBaseVNode, t as toDisplayString, d as createCommentVNode, s as createTextVNode, w as withDirectives, p as renderSlot, E as defineComponent, S as onMounted, U as onBeforeUnmount, K as watch, L as ref, J as computed, ba as onUpdated, G as inject, N as provide, F as Fragment, i as renderList, m as markRaw, n as normalizeStyle, g as normalizeClass, k as normalizeProps, v as vShow, f as withModifiers, T as Transition } from './lodash.Cy6RZ5mX.js';
-import { m as makeFullUrl, _ as __unplugin_components_0$e, a as makeGoodReadsUrl, s as stringifyArray, p as prepareKeys, b as __unplugin_components_1$b, c as slugify, d as __unplugin_components_0$f, e as __unplugin_components_1$c } from './gallery.CA6qhz6s.js';
+import { m as makeFullUrl, _ as __unplugin_components_0$e, a as makeGoodReadsUrl, s as stringifyArray, p as prepareKeys, b as __unplugin_components_1$b, c as slugify, d as __unplugin_components_0$f, e as __unplugin_components_1$c } from './gallery.BSL9PIJ5.js';
 import { k as timeStringToSeconds, i as axios, j as secondsToTimeString } from './content-script-helpers.BpgvfgYn.js';
-import { _ as __unplugin_components_1$a, a as __unplugin_components_0$g } from './gallery-search.D5Bx3A3Z.js';
+import { _ as __unplugin_components_1$a, a as __unplugin_components_0$g } from './gallery-search.BBZOLN9f.js';
 import { g as getDefaultExportFromCjs } from './jquery.3Hs3vqLI.js';
 import { f as findSubPageSource } from './gallery-findSubPageSource.CB10VwdW.js';
 import './index.9Z32wZYy.js';
